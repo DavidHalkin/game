@@ -1,0 +1,20 @@
+// main nav
+.mn_item1{ @include sprite($mn_item1);}
+.mn_item2{ @include sprite($mn_item2);}
+.mn_item3{ @include sprite($mn_item3);}
+.mn_item4{ @include sprite($mn_item4);}
+.mn_item5{ @include sprite($mn_item5);}
+.mn_item6{ @include sprite($mn_item6);}
+.mn_item7{ @include sprite($mn_item7);}
+.mn_item8{ @include sprite($mn_item8);}
+.mn_item9{ @include sprite($mn_item9);}
+// main nav hover
+.mn_item1_hover{ @include sprite($mn_item1_hover);}
+.mn_item2_hover{ @include sprite($mn_item2_hover);}
+.mn_item3_hover{ @include sprite($mn_item3_hover);}
+.mn_item4_hover{ @include sprite($mn_item4_hover);}
+.mn_item5_hover{ @include sprite($mn_item5_hover);}
+.mn_item6_hover{ @include sprite($mn_item6_hover);}
+.mn_item7_hover{ @include sprite($mn_item7_hover);}
+.mn_item8_hover{ @include sprite($mn_item8_hover);}
+.mn_item9_hover{ @include sprite($mn_item9_hover);}
