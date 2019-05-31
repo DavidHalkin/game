@@ -1,0 +1,39 @@
+.message_nav{
+	position: fixed;
+	top: 71px;
+	right: 7px;
+	z-index: 100;
+	.chats_part{
+		width: 57px;
+		height: 151px;
+		background: url(../images/chat_bg.png) no-repeat;
+		li{
+			padding-top: 15px;
+			text-align: center;
+			+ li{
+				padding-top: 24px;
+			}
+		}
+	}
+	a{
+		&:hover{
+			.chat_1{
+				@include sprite($chat_1_hover);
+			}
+			.chat_2{
+				@include sprite($chat_2_hover);
+			}
+			.help_ico_small{
+				@include sprite($help_ico_small_hover);
+				margin-top: 2px;
+			}
+		}
+	}
+	.help_button{
+		width: 45px;
+		height: 45px;
+		display: block;
+		margin: 15px auto 0;
+		overflow: hidden;
+	}
+}

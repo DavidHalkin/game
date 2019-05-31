@@ -6,4 +6,31 @@
 '_param',
 '_sprite',
 '_sprite_include.scss',
+'_message_nav.scss',
 '_header';
+a.edit{
+	&:hover{
+		@include sprite($edit_hover);
+	}
+}
+
+.field_map{
+	width: 100%;
+	position: fixed;
+	top: 71px;
+	left: 0;
+	height: calc(100vh - 71px);
+}
+.roll {
+    z-index: 100;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 225px;
+    height: 70px;
+    color: #453625;
+    font-size: 15px;
+    padding: 18px 20px;
+    text-align: center;
+    background: url(../images/bg_roll.png) no-repeat;
+}

@@ -18,3 +18,44 @@
 .mn_item7_hover{ @include sprite($mn_item7_hover);}
 .mn_item8_hover{ @include sprite($mn_item8_hover);}
 .mn_item9_hover{ @include sprite($mn_item9_hover);}
+// arrow
+.arrow_down{ @include sprite($arrow_down);}
+.arrow_down_white{ @include sprite($arrow_down_white);}
+// edit
+.edit{ @include sprite($edit);}
+.edit_hover{ @include sprite($edit_hover);}
+// resourses
+.resources_1{ @include sprite($resources_1);}
+.resources_2{ @include sprite($resources_2);}
+.resources_3{ @include sprite($resources_3);}
+.resources_4{ @include sprite($resources_4);}
+.resources_5{ @include sprite($resources_5);}
+.resources_6{ @include sprite($resources_6);}
+// budget
+.new_message{ @include sprite($new_message);}
+// user_icons
+.user_1{ @include sprite($user_1);}
+.user_2{ @include sprite($user_2);}
+.user_3{ @include sprite($user_3);}
+.user_4{ @include sprite($user_4);}
+.user_5{ @include sprite($user_5);}
+//chat
+.chat{ @include sprite($chat);}
+.chat_small{ @include sprite($chat_small);}
+// user_icons hover
+.user_1_hover{ @include sprite($user_1_hover);}
+.user_2_hover{ @include sprite($user_2_hover);}
+.user_3_hover{ @include sprite($user_3_hover);}
+.user_4_hover{ @include sprite($user_4_hover);}
+.user_5_hover{ @include sprite($user_5_hover);}
+//chats
+.chat_1{ @include sprite($chat_1);}
+.chat_2{ @include sprite($chat_2);}
+//chats hover
+.chat_1_hover{ @include sprite($chat_1_hover);}
+.chat_2_hover{ @include sprite($chat_2_hover);}
+// help
+.help_ico{ @include sprite($help_ico);}
+.help_ico_hover{ @include sprite($help_ico_hover);}
+.help_ico_small{ @include sprite($help_ico_small);}
+.help_ico_small_hover{ @include sprite($help_ico_small_hover);}

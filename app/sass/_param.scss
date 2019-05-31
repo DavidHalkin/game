@@ -1,17 +1,64 @@
 @font-face {
     font-family: 'Marta';
-    src: url('../fonts/Marta-Italic.eot');
-    src: url('../fonts/Marta-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Marta-Italic.woff2') format('woff2'),
-        url('../fonts/Marta-Italic.woff') format('woff'),
-        url('../fonts/Marta-Italic.ttf') format('truetype'),
-        url('../fonts/Marta-Italic.svg#Marta-Italic') format('svg');
+    src: url('../fonts/Marta.eot');
+    src: url('../fonts/Marta.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Marta.woff2') format('woff2'),
+        url('../fonts/Marta.woff') format('woff'),
+        url('../fonts/Marta.ttf') format('truetype'),
+        url('../fonts/Marta.svg#Marta') format('svg');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 }
 body{
-	font: 14px/17px 'Marta', sans-serif;
+	font: 14px/17px 'Marta', sans-serif !important;
 }
 .icn{
 	display: inline-block;
+}
+.ang_l, .ang_r, .ang_lb, .ang_rb {
+    position: absolute;
+    width: 55px;
+    height: 59px;
+    z-index: 10;
+    background: url(../images/bg_angl.png) no-repeat;
+}
+.ang_l {
+    top: 64px;
+    left: 0;
+}
+.ang_r {
+    top: 64px;
+    right: 0;
+    transform: scale(-1, 1);
+}
+.ang_lb {
+    bottom: 0;
+    left: 0;
+    transform: scale(1, -1);
+}
+.ang_rb {
+    bottom: 0;
+    right: 0;
+    transform: scale(-1, -1);
+}
+.fr_r {
+    right: 0;
+}
+.fr_l {
+    left: 0;
+}
+.fr_l, .fr_r {
+    top: 71px;
+    width: 7px;
+    height: calc(100vh - 71px);
+}
+.fr_b {
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+}
+.fr_r,.fr_l,.fr_b{
+	background-image: url(../images/br_1.png);
+	z-index: 5;
+	position: absolute;
 }
