@@ -59,3 +59,28 @@
 .help_ico_hover{ @include sprite($help_ico_hover);}
 .help_ico_small{ @include sprite($help_ico_small);}
 .help_ico_small_hover{ @include sprite($help_ico_small_hover);}
+// left icons
+.ic_1{ @include sprite($ic_1);}
+.ic_2{ @include sprite($ic_2);}
+.ic_3{ @include sprite($ic_3);}
+.ic_4{ @include sprite($ic_4);}
+.ic_5{ @include sprite($ic_5);}
+.ic_6{ @include sprite($ic_6);}
+.ic_7{ @include sprite($ic_7);}
+.ic_8{ @include sprite($ic_8);}
+.ic_9{ @include sprite($ic_9);}
+// left icons hover
+.ic_1_hover{ @include sprite($ic_1_hover);}
+.ic_2_hover{ @include sprite($ic_2_hover);}
+.ic_3_hover{ @include sprite($ic_3_hover);}
+.ic_4_hover{ @include sprite($ic_4_hover);}
+.ic_5_hover{ @include sprite($ic_5_hover);}
+.ic_6_hover{ @include sprite($ic_6_hover);}
+.ic_7_hover{ @include sprite($ic_7_hover);}
+.ic_8_hover{ @include sprite($ic_8_hover);}
+.ic_9_hover{ @include sprite($ic_9_hover);}
+//tower
+.tower{ @include sprite($tower);}
+.tower_hover{ @include sprite($tower_hover);}
+//holder_ic
+.holder_ic{ @include sprite($holder_ic);}
