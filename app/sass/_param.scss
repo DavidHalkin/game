@@ -74,3 +74,112 @@ body{
 	z-index: 5;
 	position: absolute;
 }
+.strelkaleft, .strelkatop, .strelkabot, .strelkatop_center, .strelkaright {
+    position: relative;
+    z-index: 100000;
+}
+.strelkabot::before {
+	content: "";
+	position: absolute;
+	top: 23px;
+	right: -100px;
+	width: 118px;
+	height: 118px;
+	background: url(../images/strelkatop-left.png) no-repeat center;
+	z-index: 100000;
+	background-size: 79%;
+	animation: strelkabot-animation infinite 2s ease-in-out;
+}
+.strelkaleft::before {
+	content: "";
+	position: absolute;
+	bottom: -93px;
+	left: -100px;
+	width: 118px;
+	height: 118px;
+	background: url(../images/strelkatop-right.png) no-repeat center;
+	z-index: 100000;
+	background-size: 79%;
+	animation: strelkaleft-animation infinite 2s ease-in-out;
+}
+.strelkaright::before {
+	content: "";
+	position: absolute;
+	top: calc(-50% - 69px);
+	right: calc(-50% - 69px);
+	width: 118px;
+	height: 118px;
+	background: url(../images/strelkabot-left.png) no-repeat center;
+	z-index: 100000;
+	background-size: 79%;
+	animation: strelkaright-animation infinite 2s  ease-in-out;
+}
+
+.strelkatop_center::before {
+	content: "";
+	position: absolute;
+	top: -86px;
+	left: -10px;
+	width: 118px;
+	height: 118px;
+	background: url(../images/strelkabot-right.png) no-repeat center;
+	z-index: 100000;
+	background-size: 79%;
+}
+
+.strelkatop::before {
+	content: "";
+	position: absolute;
+	top: -86px;
+	left: -80px;
+	width: 118px;
+	height: 118px;
+	background: url(../images/strelkabot-right.png) no-repeat center;
+	z-index: 100000;
+	background-size: 79%;
+	animation: strelkatop-animation infinite 2s ease-in-out;
+}
+@keyframes strelkaright-animation {
+    0% {
+        transform: translate(30px, -30px);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(30px, -30px);
+    }
+}
+@keyframes strelkabot-animation {
+    0% {
+        transform: translate(30px, 30px);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(30px, 30px);
+    }
+}
+@keyframes strelkaleft-animation  {
+    0% {
+        transform: translate(-30px, 30px);
+    }
+    50% {
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(-30px, 30px);
+    }
+}
+@keyframes strelkatop-animation {
+    0% {
+        transform: translate(-30px, -30px);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-30px, -30px);
+    }
+}

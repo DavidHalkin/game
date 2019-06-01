@@ -120,7 +120,7 @@
 				</div>
 				<div class="header_middle px-2">
 					<div class="header_middle_top d-flex align-items-center">
-						<div class="dropdown pseudo_select noclose_js pseudo_select_maxwidth">
+						<div class="dropdown pseudo_select noclose_js pseudo_select_maxwidth strelkabot">
 							<a href="#" class="icn edit align-middle"></a>
 							<button class="btn dropdown-toggle pl-1 pr-4 py-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<span> Muspelheim Muspelheim Muspelheim Muspelheim</span>
@@ -314,12 +314,20 @@
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/perfect-scrollbar.min.js"></script>
 		<script>
-			const ps = new PerfectScrollbar('.custom_scroll_y', {
-				wheelSpeed: 2,
-				wheelPropagation: true,
-				minScrollbarLength: 20,
+			// const ps = new PerfectScrollbar('.custom_scroll_y', {
+			// 	wheelSpeed: 2,
+			// 	wheelPropagation: true,
+			// 	minScrollbarLength: 20,
 
-			});
+			// });
+			$('.custom_scroll_y').each(function(){
+      var ps = new PerfectScrollbar(this, {
+        wheelSpeed: 2,
+        wheelPropagation: true,
+        minScrollbarLength: 20,
+
+      });
+    });
 		</script>
 		<script type="text/javascript">
 			$(document).on("click.bs.dropdown.data-api", ".noclose_js", function (e) { e.stopPropagation() });

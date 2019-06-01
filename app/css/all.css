@@ -26,6 +26,50 @@ body { font: 14px/17px 'Marta', sans-serif !important; }
 
 .fr_r, .fr_l, .fr_b { background-image: url(../images/br_1.png); z-index: 5; position: absolute; }
 
+.strelkaleft, .strelkatop, .strelkabot, .strelkatop_center, .strelkaright { position: relative; z-index: 100000; }
+
+.strelkabot::before { content: ""; position: absolute; top: 23px; right: -100px; width: 118px; height: 118px; background: url(../images/strelkatop-left.png) no-repeat center; z-index: 100000; -webkit-background-size: 79% 79%; background-size: 79%; -webkit-animation: strelkabot-animation infinite 2s ease-in-out; animation: strelkabot-animation infinite 2s ease-in-out; }
+
+.strelkaleft::before { content: ""; position: absolute; bottom: -93px; left: -100px; width: 118px; height: 118px; background: url(../images/strelkatop-right.png) no-repeat center; z-index: 100000; -webkit-background-size: 79% 79%; background-size: 79%; -webkit-animation: strelkaleft-animation infinite 2s ease-in-out; animation: strelkaleft-animation infinite 2s ease-in-out; }
+
+.strelkaright::before { content: ""; position: absolute; top: -webkit-calc(-50% - 69px); top: calc(-50% - 69px); right: -webkit-calc(-50% - 69px); right: calc(-50% - 69px); width: 118px; height: 118px; background: url(../images/strelkabot-left.png) no-repeat center; z-index: 100000; -webkit-background-size: 79% 79%; background-size: 79%; -webkit-animation: strelkaright-animation infinite 2s  ease-in-out; animation: strelkaright-animation infinite 2s  ease-in-out; }
+
+.strelkatop_center::before { content: ""; position: absolute; top: -86px; left: -10px; width: 118px; height: 118px; background: url(../images/strelkabot-right.png) no-repeat center; z-index: 100000; -webkit-background-size: 79% 79%; background-size: 79%; }
+
+.strelkatop::before { content: ""; position: absolute; top: -86px; left: -80px; width: 118px; height: 118px; background: url(../images/strelkabot-right.png) no-repeat center; z-index: 100000; -webkit-background-size: 79% 79%; background-size: 79%; -webkit-animation: strelkatop-animation infinite 2s ease-in-out; animation: strelkatop-animation infinite 2s ease-in-out; }
+
+@-webkit-keyframes strelkaright-animation { 0% { -webkit-transform: translate(30px, -30px); transform: translate(30px, -30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(30px, -30px); transform: translate(30px, -30px); } }
+
+@keyframes strelkaright-animation { 0% { -webkit-transform: translate(30px, -30px); transform: translate(30px, -30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(30px, -30px); transform: translate(30px, -30px); } }
+
+@-webkit-keyframes strelkabot-animation { 0% { -webkit-transform: translate(30px, 30px); transform: translate(30px, 30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(30px, 30px); transform: translate(30px, 30px); } }
+
+@keyframes strelkabot-animation { 0% { -webkit-transform: translate(30px, 30px); transform: translate(30px, 30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(30px, 30px); transform: translate(30px, 30px); } }
+
+@-webkit-keyframes strelkaleft-animation { 0% { -webkit-transform: translate(-30px, 30px); transform: translate(-30px, 30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(-30px, 30px); transform: translate(-30px, 30px); } }
+
+@keyframes strelkaleft-animation { 0% { -webkit-transform: translate(-30px, 30px); transform: translate(-30px, 30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(-30px, 30px); transform: translate(-30px, 30px); } }
+
+@-webkit-keyframes strelkatop-animation { 0% { -webkit-transform: translate(-30px, -30px); transform: translate(-30px, -30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(-30px, -30px); transform: translate(-30px, -30px); } }
+
+@keyframes strelkatop-animation { 0% { -webkit-transform: translate(-30px, -30px); transform: translate(-30px, -30px); }
+  50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  100% { -webkit-transform: translate(-30px, -30px); transform: translate(-30px, -30px); } }
+
 .mn_item1 { background-image: url(../images/sprite.png); background-position: -361px -277px; width: 36px; height: 28px; }
 
 .mn_item2 { background-image: url(../images/sprite.png); background-position: -361px -166px; width: 33px; height: 34px; }
@@ -397,5 +441,7 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 .ps__rail-y:after { content: ''; width: 1px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px); display: block; background: #343434; font-size: 0; position: absolute; top: 5px; left: 1px; z-index: 1; }
 
 .ps__rail-y .ps__thumb-y { opacity: 1 !important; width: 6px !important; background-color: #626262 !important; -webkit-border-radius: 4px; border-radius: 4px; z-index: 10; }
+
+.test { position: fixed; width: 100px; height: 100px; background: red; top: 50%; left: 50%; }
 
 /*# sourceMappingURL=all.css.map */
