@@ -8,6 +8,8 @@
 		height: 151px;
 		background: url(../images/chat_bg.png) no-repeat;
 		li{
+			width: auto;
+			height: auto;
 			padding-top: 15px;
 			text-align: center;
 			+ li{
@@ -16,6 +18,10 @@
 		}
 	}
 	a{
+		i{
+			position: static !important;
+			transform:none !important;
+		}
 		&:hover{
 			.chat_1{
 				@include sprite($chat_1_hover);
@@ -34,6 +40,6 @@
 		height: 45px;
 		display: block;
 		margin: 15px auto 0;
-		overflow: hidden;
+		position: relative;
 	}
 }

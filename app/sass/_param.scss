@@ -24,6 +24,9 @@
 body{
 	font: 14px/17px 'Marta', sans-serif !important;
 }
+a,button{
+	outline: none;
+}
 .icn{
 	display: inline-block;
 }
@@ -76,7 +79,7 @@ body{
 }
 .strelkaleft, .strelkatop, .strelkabot, .strelkatop_center, .strelkaright {
     position: relative;
-    z-index: 100000;
+    z-index: 40;
 }
 .strelkabot::before {
 	content: "";
