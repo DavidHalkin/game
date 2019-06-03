@@ -192,6 +192,7 @@ a.edit{
 	top: 80px;
 	width: 270px;
 	max-height: calc(100vh - 155px);
+	max-height: calc(100% - 155px);
 	border-radius: 5px;
 	padding:0 7px;
 	.alert_item{
