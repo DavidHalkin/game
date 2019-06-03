@@ -33,6 +33,10 @@
 .resources_6{ @include sprite($resources_6);}
 // budget
 .new_message{ @include sprite($new_message);}
+.new_message_green{ @include sprite($new_message_green);}
+.new_message_big{ @include sprite($new_message_big);}
+.new_message_green_big{ @include sprite($new_message_green_big);}
+
 // user_icons
 .user_1{ @include sprite($user_1);}
 .user_2{ @include sprite($user_2);}
@@ -84,3 +88,5 @@
 .tower_hover{ @include sprite($tower_hover);}
 //holder_ic
 .holder_ic{ @include sprite($holder_ic);}
+// bg_ic
+.bg_ic{ @include sprite($bg_ic);}

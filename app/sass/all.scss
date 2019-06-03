@@ -33,6 +33,9 @@ a.edit{
     padding: 18px 20px;
     text-align: center;
     background: url(../images/bg_roll.png) no-repeat;
+    @media screen and (max-width: 720px) {
+    	display: none;
+    }
 }
 .list_infrastructure{
 	position: fixed;
@@ -89,6 +92,18 @@ a.edit{
 			}
 		}
 	}
+	@media screen and (max-width: 1350px) {
+		top: 73px;
+	}
+	@media screen and (max-width: 480px) {
+		a{
+			width: 40px;
+			height: 40px;
+			i{
+				transform: scale(.8) translate(-50%, -50%);
+			}
+		}
+	}
 }
 .user_box{
 	width: 122px;
@@ -125,6 +140,9 @@ a.edit{
 		left: 5px;
 		width: 52px;
 		height: 45px;
+	}
+	@media screen and (max-width: 1350px) {
+		display: none;
 	}
 }
 .user_home{
@@ -203,6 +221,9 @@ a.edit{
 	@media screen and (max-width: 1350px) {
 		right: 10px;
 	}
+	@media screen and (max-width: 720px) {
+		display: none;
+	}
 }
 .ps__rail-x,
 .ps__rail-y{
@@ -237,11 +258,83 @@ a.edit{
 		z-index: 10;
 	}
 }
-.test{
+.dangers_list{
 	position: fixed;
-	width: 100px;
-	height: 100px;
-	background: red;
-	top: 50%;
-	left: 50%;
+	top: 75px;
+	left: 135px;
+	z-index: 10;
+	li{
+		padding: 5px;
+	}
+	a{
+		display: block;
+	}
+	@media screen and (max-width: 1350px){
+		left: 58px;
+		top: 79px;
+		li{
+			img{
+				max-width: 30px;
+			}
+		}
+	}
+}
+.process_list{
+	position: fixed;
+	bottom:10px;
+	left: 0;
+	z-index: 10;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	li{
+		padding-bottom: 20px;
+		padding-right: 10px;
+		font-size: 0;
+		line-height: 0;
+	}
+	a{
+		display: block !important;
+	}
+	span{
+		img{
+			display: block;
+			max-width: 100%;
+			display: block;
+			height: auto;
+			border-radius: 50%;
+			position: relative;
+			z-index: 11;
+			padding: 5px;
+		}
+	}
+	em{
+		bottom: -24px;
+		left: 50%;
+		transform:translateX(-50%);
+		width: 40px;
+		height: 40px;
+		font-style: normal;
+		color: #fff;
+		text-align: center;
+		i{
+			font-style: normal;
+			font-size: 10px;
+			line-height: 40px;
+			display: block;
+			font-weight: bold;
+		}
+	}
+	@media screen and (max-width: 1350px){
+		bottom: 10px;
+		li{
+			padding-right: 0;
+			transform:scale(.8);
+			margin-right: -10px;
+			padding-bottom: 10px;
+		}
+	}
+	
+	@media screen and (max-height: 400px){
+		left: 30px;
+	}
 }
