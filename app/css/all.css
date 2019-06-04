@@ -574,7 +574,7 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .dangers_list li a { display: block; }
 
-.dangers_list li img { display: block; max-width: 50px; height: auto; }
+.dangers_list li img { display: block; max-width: 50px; height: auto; -webkit-border-radius: 50%; border-radius: 50%; }
 
 @media screen and (max-width: 1350px) { .dangers_list { left: 58px; top: 79px; }
   .dangers_list .scroll_cnt { overflow: auto; width: 100%; }
