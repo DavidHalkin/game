@@ -155,7 +155,7 @@
 							<button class="btn dropdown-toggle pl-1 pr-4 py-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<span> Muspelheim Muspelheim Muspelheim Muspelheim</span>
 							</button>
-							<div class="dropdown-menu p-0 custom_scroll_drop_js" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-0 custom_scroll_js" aria-labelledby="dropdownMenuButton">
 								<ul class="list-unstyled m-0">
 									<li class="sub_drop">
 										<div class="d-flex">
@@ -402,7 +402,7 @@
 		<!-- data block  END -->
 
 		<!-- list alerts start -->
-		<div class="alerts_block custom_scroll_y">
+		<div class="alerts_block custom_scroll_js">
 			<div class="alert_item text-right">
 				<a href="#" class="close_ico"></a>
 				<p>Изучение название  текущего процесса <span class="text-warning">123456789</span></p>
@@ -468,30 +468,12 @@
 			<div class="fr_l"></div>
 		</div>
 		<!-- decoration borders and angels END -->
-		
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/perfect-scrollbar.min.js"></script>
+		<script src="js/jquery.overlayScrollbars.min.js"></script>
 		<script src="js/main.js"></script>
 		<script>
-			var ps;
-
-			$('.custom_scroll_y').each(function(){
-				// ps.destroy();
-		       	new PerfectScrollbar(this, {
-		        wheelSpeed: 2,
-		        wheelPropagation: true,
-		        minScrollbarLength: 20,
-		      });
-		    });
-		    $('.custom_scroll_drop_js').each(function(){
-				// ps.destroy();
-		       ps =	new PerfectScrollbar(this, {
-		        wheelSpeed: 2,
-		        wheelPropagation: true,
-		        minScrollbarLength: 20,
-		      });
-		    });
+			
 		</script>
 		<script type="text/javascript">
 			$(document).on("click.bs.dropdown.data-api", ".noclose_js", function (e) { e.stopPropagation() });
@@ -500,14 +482,12 @@
 		<script>
 			$(document).ready(function(){
 				$(".btn_toggle_js").click(function(){
-					$(this).parents("li").find(".sub_drop_mmenu").slideToggle("fast",function(){
-						ps.destroy();
-						ps = new PerfectScrollbar('.custom_scroll_drop_js', {
-							wheelSpeed: 2,
-							wheelPropagation: true,
-							minScrollbarLength: 20
-						});
-					});
+					$(this).parents("li").find(".sub_drop_mmenu").slideToggle("fast");
+				});
+			});
+			$(function() {
+				$('.custom_scroll_js').overlayScrollbars({ 
+					// sizeAutoCapable : false,
 				});
 			});
 		</script>

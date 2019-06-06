@@ -41,6 +41,6 @@
     "vinyl-buffer": "^1.0.0"
   },
   "dependencies": {
-    "perfect-scrollbar": "^1.4.0"
+    "overlayscrollbars": "^1.7.1"
   }
 }

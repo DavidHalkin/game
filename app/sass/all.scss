@@ -186,13 +186,19 @@ a.edit{
 		opacity: 1;
 	}
 }
+.alerts_block {
+	.alerts_block_cnt{
+		
+	}
+}
 .alerts_block{
 	position: fixed;
 	right: 80px;
 	top: 80px;
 	width: 270px;
-	// max-height: calc(100vh - 155px);
-	max-height: calc(100% - 170px);
+	max-height: calc(100% - 170px) !important;
+	max-height: 73% !important;
+	// max-height: calc(100vh - 170px) !important;
 	border-radius: 5px;
 	padding:0 7px;
 	.alert_item{
@@ -226,64 +232,31 @@ a.edit{
 		display: none;
 	}
 }
-.ps__rail-x,
-.ps__rail-y{
+.os-host-overflow-y{
+	padding-right: 15px !important;
+}
+.os-host-overflow-x{
+	padding-bottom: 15px !important;
+}
+.os-theme-dark > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle{
+	background: #626262 !important;
 	opacity: 1;
+	z-index: 10;
 }
-.ps--active-y{
-	padding-right: 22px !important;
-}
-.ps__rail-y{
-	width: 6px;
-	background-color:transparent !important;
-	right: 5px !important;
-	opacity: 1 !important;
-	&:after{
-		content: '';
-		width: 1px;
-		height: calc(100% - 10px);
-		display: block;
-		background:#343434;
-		font-size: 0;
-		position: absolute;
-		top: 5px;
-		left: 1px;
-		z-index: 1;
-	}
-	.ps__thumb-y{
-		opacity: 1 !important;
-		width: 6px !important;
-		background-color: #626262 !important;
-		// box-shadow: 0px 0px 3px 1px #757575;
-		border-radius: 4px;
-		z-index: 10;
-	}
-}
-// horizont
-.ps__rail-x{
-	height: 6px;
-	background-color:transparent !important;
-	bottom: 5px !important;
-	opacity: 1 !important;
-	&:after{
-		content: '';
-		width: calc(100% - 10px);
-		height: 1px;
-		display: block;
-		background:#343434;
-		font-size: 0;
-		position: absolute;
-		top: 1;
-		left: 5px;
-		z-index: 1;
-	}
-	.ps__thumb-x{
-		opacity: 1 !important;
-		height: 6px !important;
-		background-color: #626262 !important;
-		// box-shadow: 0px 0px 3px 1px #757575;
-		border-radius: 4px;
-		z-index: 10;
+.os-host-overflow-y{
+	.os-scrollbar-vertical{
+		padding-top: 0;
+		padding-bottom: 0;
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			top: 0;
+			left: 50%;
+			width: 1px;
+			height: 100%;
+			background: #d88e2e;
+		}
 	}
 }
 .dangers_list{
@@ -400,5 +373,27 @@ a.edit{
 	}
 	@media screen and (max-height: 400px){
 		padding-left: 50px !important;
+	}
+}
+
+.box_test{
+	background: #fff;
+	position: fixed;
+	top: 300px;
+	right: 0;
+	left: 0;
+	z-index: 100;
+	padding:40px;
+	li{
+		border: 1px solid red;
+		max-width: 100px;
+		flex: 0 0 100px;
+		margin-right: 10px;
+		height: 100px;
+	}
+	.gm{
+		max-width: 100%;
+		overflow: auto;
+		position: relative;
 	}
 }

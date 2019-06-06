@@ -116,7 +116,7 @@ gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'bower_components/jquery/dist/jquery.min.js',
 		'bower_components/bootstrap/dist/js/bootstrap.bundle.min.js',
-		'node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js',
+		'node_modules/overlayscrollbars/js/jquery.overlayScrollbars.min.js',
 
 		])
 		// .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
@@ -128,7 +128,7 @@ gulp.task('scripts', function() {
 //библиотеки css
 gulp.task('css-libs', ['sass'], function() {
 	return gulp.src([ // Берем все необходимые библиотеки
-		'node_modules/perfect-scrollbar/css/perfect-scrollbar.css',
+		'node_modules/overlayscrollbars/css/OverlayScrollbars.min.css',
 		// 'bower_components/fancybox/dist/jquery.fancybox.min.css'
 		])
 		.pipe(sourcemaps.init())
