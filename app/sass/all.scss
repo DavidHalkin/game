@@ -7,7 +7,8 @@
 '_sprite',
 '_sprite_include.scss',
 '_message_nav.scss',
-'_header';
+'_header',
+'_modals.scss';
 a.edit{
 	&:hover{
 		@include sprite($edit_hover);
@@ -255,6 +256,24 @@ a.edit{
 			left: 50%;
 			width: 1px;
 			height: 100%;
+			background: #d88e2e;
+		}
+	}
+}
+.os-host-overflow-x{
+	.os-scrollbar-horizontal{
+		padding-top: 0;
+		padding-bottom: 0;
+		height: 6px;
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			top: 50%;
+			left: 50%;
+			transform:translateX(-50%);
+			width: calc(100% - 4px);
+			height: 1px;
 			background: #d88e2e;
 		}
 	}

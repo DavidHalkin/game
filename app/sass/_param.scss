@@ -27,6 +27,9 @@ body{
 a,button{
 	outline: none;
 }
+.minw_0{
+    min-width: 0;
+}
 .icn{
 	display: inline-block;
 }
@@ -186,4 +189,11 @@ a,button{
     100% {
         transform: translate(-30px, -30px);
     }
+}
+.btn-texture{
+    background:url(../images/btn_texture.png);
+    background-size: cover !important;
+}
+.bg_light_texture{
+    background:url(../images/bg_light.png);
 }
