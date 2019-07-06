@@ -197,3 +197,58 @@ a,button{
 .bg_light_texture{
     background:url(../images/bg_light.png);
 }
+.bg-black{
+    background: #000;
+}
+.btn-black{
+    background: #000;
+    color: #fff;
+    &:hover{
+        color: #fff;
+    }
+}
+.dropdown-menu{
+    &.bg-black{
+        a{
+            &:hover{
+                background: none;
+                color: #d88e2e !important;
+            }
+        }
+    }
+}
+.form_control_black{
+    background: #000;
+    border-color: #000;
+    &:focus{
+        background: #000;
+        border-color: #fff;
+    }
+}
+.form_control_small{
+    max-width: 80px;
+    flex:0 0 80px;
+}
+.pseudo_select_black{
+    .dropdown-toggle{
+        &:after{
+            position: absolute;
+            top: 50%;
+            transform:translateY(-50%);
+            right: 10px;
+        }
+    }
+    .dropdown-menu{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px){
+    .col_xxs_12,.form_control_xxs_100{
+        max-width: 100%;
+        flex:0 0 100%;
+    }
+    .xxs_btn_block{
+        display: block;
+        width: 100% !important;
+    }
+}
