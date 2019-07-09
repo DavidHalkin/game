@@ -92,3 +92,39 @@
 .bg_ic{ @include sprite($bg_ic);}
 //modal_close
 .modal_close{ @include sprite($modal_close);}
+// build icons
+.b_1{ @include sprite($b_1);}
+.b_1_h{ @include sprite($b_1_h);}
+
+.b_2{ @include sprite($b_2);}
+.b_2_h{ @include sprite($b_2_h);}
+
+.b_3{ @include sprite($b_3);}
+.b_3_h{ @include sprite($b_3_h);}
+
+.b_4{ @include sprite($b_4);}
+.b_4_h{ @include sprite($b_4_h);}
+
+.b_5{ @include sprite($b_5);}
+.b_5_h{ @include sprite($b_5_h);}
+
+.b_6{ @include sprite($b_6);}
+.b_6_h{ @include sprite($b_6_h);}
+
+.b_7{ @include sprite($b_7);}
+.b_7_h{ @include sprite($b_7_h);}
+
+.b_8{ @include sprite($b_8);}
+.b_8_h{ @include sprite($b_8_h);}
+
+.b_9{ @include sprite($b_9);}
+.b_9_h{ @include sprite($b_9_h);}
+
+.b_10{ @include sprite($b_10);}
+.b_10_h{ @include sprite($b_10_h);}
+
+.b_11{ @include sprite($b_11);}
+.b_11_h{ @include sprite($b_11_h);}
+
+// cristall
+.icn_gem{ @include sprite($icn_gem);}

@@ -26,6 +26,11 @@ $(document).ready(function(){
         $(".modal_box_js").toggleClass("active");
         return false;
     });
+     // modal
+    $(".modal_2_js").click(function(){
+        $(".modal_2_box_js").toggleClass("active");
+        return false;
+    });
 });
 // select
 $(function() {
