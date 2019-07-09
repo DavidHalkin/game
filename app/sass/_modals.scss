@@ -318,6 +318,9 @@ select{
 	&.condition_box_transparent{
 		background-color: rgba(#151414,.5);
 	}
+	&.condition_box_opacity{
+		opacity: .4;
+	}
 	h4{
 		color: #d88e2e;
 		font-size: 14px;
