@@ -21,6 +21,9 @@
 		left: 50%;
 		transform:translateX(-50%);
 	}
+	&.modal_long{
+		height: 70%;
+	}
 	.modal_holder{
 		position: relative;
 		z-index: 3;

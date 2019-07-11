@@ -560,6 +560,8 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 
 .modal_box.modal_centered { left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 
+.modal_box.modal_long { height: 70%; }
+
 .modal_box .modal_holder { position: relative; z-index: 3; height: 100%; background: -webkit-radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_modals.png); background: -o-radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_modals.png); background: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_modals.png); -webkit-border-radius: 3px; border-radius: 3px; padding: 5px; -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.9); box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.9); }
 
 .modal_box.bg_light_texture .modal_holder { background: -webkit-radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_light.png); background: -o-radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_light.png); background: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_light.png); }
