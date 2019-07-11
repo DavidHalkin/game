@@ -24,6 +24,37 @@
 	&.modal_long{
 		height: 70%;
 	}
+	&.modal_action{
+		width: 100%;
+		max-width: 260px;
+		left: auto;
+		right: -260px;
+		top: auto;
+		bottom: 0;
+		height: 92%;
+		.modal_box_close {
+			right: -35px;
+			top: 0px;
+			i{
+				transform:rotate(90deg) scale(-1,1);
+			}
+		}
+		@media screen and (max-width: 720px) {
+			max-width: 250px !important;
+			right: auto;
+			left: 50%;
+			bottom: auto;
+			top: 50% !important;
+			transform:translate(-50%,-50%);
+			width: 100% !important;
+			height: 85% !important;
+			height: 65% !important;
+			background: #000;
+			.modal_box_close {
+				top: 30px;
+			}
+		}
+	}
 	.modal_holder{
 		position: relative;
 		z-index: 3;

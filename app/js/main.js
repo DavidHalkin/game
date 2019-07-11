@@ -31,6 +31,16 @@ $(document).ready(function(){
         $(".modal_2_box_js").toggleClass("active");
         return false;
     });
+     // modal
+    $(".modal_3_js").click(function(){
+        $(".modal_3_box_js").toggleClass("active");
+        return false;
+    });
+     // modal action
+    $(".action_js").click(function(){
+        $(".modal_action_js").toggleClass("active");
+        return false;
+    });
 });
 // select
 $(function() {

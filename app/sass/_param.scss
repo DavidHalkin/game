@@ -193,6 +193,11 @@ a,button{
 .btn-texture{
     background:url(../images/btn_texture.png);
     background-size: cover !important;
+    border-color: #000;
+    &:hover{
+        color: #d88e2e;
+        border-color: #d88e2e;
+    }
 }
 .bg_light_texture{
     background:url(../images/bg_light.png);

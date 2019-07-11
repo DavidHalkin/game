@@ -74,7 +74,9 @@ a, button { outline: none; }
   50% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
   100% { -webkit-transform: translate(-30px, -30px); transform: translate(-30px, -30px); } }
 
-.btn-texture { background: url(../images/btn_texture.png); -webkit-background-size: cover !important; background-size: cover !important; }
+.btn-texture { background: url(../images/btn_texture.png); -webkit-background-size: cover !important; background-size: cover !important; border-color: #000; }
+
+.btn-texture:hover { color: #d88e2e; border-color: #d88e2e; }
 
 .bg_light_texture { background: url(../images/bg_light.png); }
 
@@ -561,6 +563,15 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 .modal_box.modal_centered { left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 
 .modal_box.modal_long { height: 70%; }
+
+.modal_box.modal_action { width: 100%; max-width: 260px; left: auto; right: -260px; top: auto; bottom: 0; height: 92%; }
+
+.modal_box.modal_action .modal_box_close { right: -35px; top: 0px; }
+
+.modal_box.modal_action .modal_box_close i { -webkit-transform: rotate(90deg) scale(-1, 1); -ms-transform: rotate(90deg) scale(-1, 1); transform: rotate(90deg) scale(-1, 1); }
+
+@media screen and (max-width: 720px) { .modal_box.modal_action { max-width: 250px !important; right: auto; left: 50%; bottom: auto; top: 50% !important; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100% !important; height: 85% !important; height: 65% !important; background: #000; }
+  .modal_box.modal_action .modal_box_close { top: 30px; } }
 
 .modal_box .modal_holder { position: relative; z-index: 3; height: 100%; background: -webkit-radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_modals.png); background: -o-radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_modals.png); background: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../images/bg_modals.png); -webkit-border-radius: 3px; border-radius: 3px; padding: 5px; -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.9); box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.9); }
 
