@@ -41,6 +41,10 @@ $(document).ready(function(){
         $(".modal_action_js").toggleClass("active");
         return false;
     });
+    $(".modal_4_js").click(function(){
+        $(".modal_4_box_js").toggleClass("active");
+        return false;
+    });
 });
 // select
 $(function() {

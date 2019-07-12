@@ -271,6 +271,7 @@ a,button{
 }
 .table_cstm{
     border-top: 2px solid rgba(204, 204, 204, .1);
+    // table-layout: fixed;
     td{
         vertical-align: middle;
         padding:5px 3px;
@@ -283,4 +284,16 @@ a,button{
 .fz_16{
     font-size: 16px;
     line-height: 18px;
+}
+.func_td{
+    width: 130px;
+    .dropdown{
+        width: 130px;
+    }
+}
+.btn_more {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    line-height: 15px;
 }

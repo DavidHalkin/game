@@ -115,6 +115,12 @@ a, button { outline: none; }
 
 .fz_16 { font-size: 16px; line-height: 18px; }
 
+.func_td { width: 130px; }
+
+.func_td .dropdown { width: 130px; }
+
+.btn_more { width: 24px; height: 24px; padding: 0; line-height: 15px; }
+
 .mn_item1 { background-image: url(../images/sprite.png); background-position: -42px -349px; width: 36px; height: 28px; }
 
 .mn_item2 { background-image: url(../images/sprite.png); background-position: -408px 0px; width: 33px; height: 34px; }
