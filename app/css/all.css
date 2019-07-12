@@ -101,6 +101,20 @@ a, button { outline: none; }
 @media screen and (max-width: 380px) { .col_xxs_12, .form_control_xxs_100 { max-width: 100%; -webkit-box-flex: 0; -webkit-flex: 0 0 100%; -ms-flex: 0 0 100%; flex: 0 0 100%; }
   .xxs_btn_block { display: block; width: 100% !important; } }
 
+.religion_emblem img { max-width: 35px; }
+
+.title_td { font-size: 16px; line-height: 18px; }
+
+.title_td:hover { text-decoration: none; }
+
+.table_cstm { border-top: 2px solid rgba(204, 204, 204, 0.1); }
+
+.table_cstm td { vertical-align: middle; padding: 5px 3px; background-color: rgba(60, 60, 60, 0.5); }
+
+.table_cstm th, .table_cstm td { border-bottom: 2px solid rgba(204, 204, 204, 0.1); }
+
+.fz_16 { font-size: 16px; line-height: 18px; }
+
 .mn_item1 { background-image: url(../images/sprite.png); background-position: -42px -349px; width: 36px; height: 28px; }
 
 .mn_item2 { background-image: url(../images/sprite.png); background-position: -408px 0px; width: 33px; height: 34px; }
