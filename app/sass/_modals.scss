@@ -91,7 +91,7 @@
 		width: 50%;
 	}
 	@media screen and (max-width: 720px) {
-		background: rgba(#000,.8);
+		
 		width: 100%;
 		max-width: 100%;
 		left: 0;
@@ -111,6 +111,9 @@
 			right: 6px;
 			top: 0;
 		}
+	}
+	@media screen and (max-width: 430px) {
+		background: rgba(#000,.8);
 	}
 }
 
@@ -413,7 +416,8 @@ select{
 	position: absolute;
 	top: -57px;
 	left: 50%;
-	transform:translateX(-50%);
+	margin-left: -145px;
+	// transform:translateX(-50%);
 	@media screen and (max-width: 720px) {
 		top: -21px;
 	}
