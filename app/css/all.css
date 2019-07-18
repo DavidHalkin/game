@@ -814,6 +814,34 @@ select { width: 100%; }
 
 .coordinates_block .form_control_black:focus { border-color: #f1a327; }
 
+.registration_block { left: auto; right: 10px; top: 60px; max-width: 430px !important; width: 100% !important; height: -webkit-calc(100% - 80px) !important; height: calc(100% - 80px) !important; }
+
+@media screen and (max-width: 1000px) { .registration_block { display: none !important; } }
+
+.registration_block.active { display: block !important; }
+
+@media screen and (max-width: 720px) { .registration_block { background: none; } }
+
+@media screen and (max-width: 600px) { .registration_block { max-width: none !important; height: 100% !important; top: 0; right: 0; background: url(../images/bg_light.png); } }
+
+.btn_helper { position: absolute; top: 20px; left: 20px; z-index: 30; }
+
+.nation_list li { max-width: 90px; -webkit-box-flex: 0; -webkit-flex: 0 0 90px; -ms-flex: 0 0 90px; flex: 0 0 90px; padding: 5px; }
+
+.nation_list a { width: 70px; height: 70px; margin: 0 auto; display: block; position: relative; background: url(../images/circle.png) no-repeat; -webkit-background-size: cover; background-size: cover; -webkit-border-radius: 50%; border-radius: 50%; -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5); overflow: hidden; }
+
+.nation_list a em { display: block; overflow: hidden; width: 50px; height: 50px; -webkit-border-radius: 50%; border-radius: 50%; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.nation_list a img { display: block; max-width: 100%; max-height: 100%; -webkit-border-radius: 50%; border-radius: 50%; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%) scale(1.2); -ms-transform: translate(-50%, -50%) scale(1.2); transform: translate(-50%, -50%) scale(1.2); }
+
+.nation_list .active a { background: url(../images/circle_gold.png) no-repeat; -webkit-background-size: cover; background-size: cover; }
+
+.nation_list .active span { color: #f1a327; }
+
+.nation_list span { display: block; text-align: center; color: #cccccc; padding-top: 5px; }
+
+.nation_i p { font-size: 14px; line-height: 20px; color: #ccc; }
+
 a.edit:hover { background-image: url(../images/sprite.png); background-position: -456px -164px; width: 13px; height: 12px; }
 
 .field_map { width: 100%; position: fixed; top: 71px; left: 0; height: -webkit-calc(100vh - 71px); height: calc(100vh - 71px); }
@@ -974,5 +1002,7 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 @media (max-width: 1199.98px) { .map_nav_block ul li a { font-size: 12px; } }
 
 .map_nav_block ul li.active a { border-color: #f1a327; color: #f1a327; }
+
+.field_map_full { top: 0; height: 100vh; }
 
 /*# sourceMappingURL=all.css.map */

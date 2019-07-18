@@ -8,37 +8,140 @@
 		<link rel="stylesheet" href="css/all.css">		
 		<title>#</title>
 	</head>
-	<body>
-		<div class="wrapper p-3">
-			<div class="row justify-content-center">
-				<div class="col-12">
-					<ul class="list-unstyled d-flex flex-wrap justify-content-center position-relative pb-3 pb-sm-5">
-						<li><a href="#" class="btn btn-texture m-1 m-sm-2">Форум</a></li>
-						<li><a href="#" class="btn btn-texture m-1 m-sm-2">Новости</a></li>
-						<li><a href="#" class="btn btn-texture m-1 m-sm-2">Справка</a></li>
-					</ul>
-					<div class="modal_box modal_box_static maxw_400 mx-auto">
-						<div class="title_modal d-flex align-items-center justify-content-center text-center">Вход/Регистрация</div>
-						<div class="modal_holder p-3 px-md-5 pt-md-5">
-							<div class="form-group">
-								<input class="form-control form_control_black " placeholder="E-mail" type="text">
+	<body style="overflow: hidden; background: #737628;  position: fixed; top: 0;left: 0; right: 0;bottom: 0;">
+		
+		<div id="field_map" class="field_map field_map_full"></div>
+		<a href="#" class="btn btn-danger btn_helper modal_2_js">OPEN</a>
+		<!-- регистрация -->
+		<div class="modal_box bg_light_texture modal_2_box_js registration_block" style="display: block;">
+			<div class="modal_box_close modal_box_close_js"><i class="icn modal_close"></i></div>
+			<div class="title_modal d-flex align-items-center justify-content-center text-center">Начать Игру</div>
+			<div class="modal_holder d-flex flex-column position-relative">
+				<div class="modal_middle">
+					<div class="custom_scroll_js px-3">
+						<div class="form-row pb-3">
+							<div class="col pb-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Авторизация</a>
 							</div>
-							<div class="form-group is_invalid">
-								<input class="form-control form_control_black" placeholder="Пароль" type="text">
-								<span class="help_txt">Неверный пароль</span>
+							<div class="col pb-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Продолжить</a>
 							</div>
-							<div class="form-group text-right">
-								<a href="#" class="text-warning">Забыли пароль?</a>
+						</div>
+						<ul class="list-unstyled mb-2 d-flex flex-wrap justify-content-center nation_list">
+							<li class="active">
+								<a href="#">
+									<em><img src="images/nat.png" alt=""></em>
+								</a>
+								<span>Ацтеки</span>
+							</li>
+							<li>
+								<a href="#">
+									<em><img src="images/nat_2.png" alt=""></em>
+								</a>
+								<span>Польские поляне</span>
+							</li>
+							<li>
+								<a href="#">
+									<em><img src="images/nat.png" alt=""></em>
+								</a>
+								<span>Ацтеки</span>
+							</li>
+							<li>
+								<a href="#">
+									<em><img src="images/nat.png" alt=""></em>
+								</a>
+								<span>Ацтеки</span>
+							</li>
+						</ul>
+						<div class="text-center">
+							<p class="text-warning mb-2 font-weight-bold">Заселенность: <span class="text-danger">26%</span></p>
+							<p class="text-warning mb-2 font-weight-bold">Сюзерен: Січ</p>
+						</div>
+						<div class="form-row py-3 mt-3 border-top border-secondary">
+							<div class="col pb-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Продолжить</a>
 							</div>
-							<div class="d-flex flex-wrap justify-content-center pt-5">
-								<button class="btn btn-texture m-2">Войти</button>
-								<button class="btn btn-texture m-2">Регистрация</button>
+							<div class="col pb-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Случайно</a>
+							</div>
+						</div>
+						<div class="form-row ">
+							<div class="col-12 col-sm minw_0 pb-2">
+								<span class="text-warning d-block pb-2">Религия:</span>
+								<select class="black_border" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+							<div class="col-12 col-sm minw_0 pb-2">
+								<span class="text-warning d-block pb-2">Государственная система:</span>
+								<select class="black_border" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+						</div>
+						<div class="text-center border-top border-bottom border-secondary py-3 nation_i">
+							<p class="m-0"><span class="text-warning">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit. Veritatis ea quidem, molestiae tenetur beatae temporibus quod vel nulla fugit nobis sunt, dicta inventore velit nostrum pariatur. Nam velit, aspernatur quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta nemo nobis, repellat ut esse quisquam saepe tempore veritatis mollitia animi beatae numquam consequuntur deleniti maxime debitis quidem. Praesentium, ipsa, excepturi?</p>
+							<p class="m-0"><span class="text-warning">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit. Veritatis ea quidem, molestiae tenetur beatae temporibus quod vel nulla fugit nobis sunt, dicta inventore velit nostrum pariatur. Nam velit, aspernatur quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta nemo nobis, repellat ut esse quisquam saepe tempore veritatis mollitia animi beatae numquam consequuntur deleniti maxime debitis quidem. Praesentium, ipsa, excepturi?</p>
+							<p class="m-0"><span class="text-warning">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit. Veritatis ea quidem, molestiae tenetur beatae temporibus quod vel nulla fugit nobis sunt, dicta inventore velit nostrum pariatur. Nam velit, aspernatur quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta nemo nobis, repellat ut esse quisquam saepe tempore veritatis mollitia animi beatae numquam consequuntur deleniti maxime debitis quidem. Praesentium, ipsa, excepturi?</p>
+						</div>
+						<div class="form-row pt-3">
+							<div class="col pt-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Продолжить</a>
+							</div>
+							<div class="col pt-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Случайно</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="login_page_bg"></div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jquery.overlayScrollbars.min.js"></script>
+		<script src="js/main.js"></script>
+		<!-- select -->
+		<script src="js/jcf.js"></script>
+		<script src="js/jcf.select.js"></script>
+		<!-- select -->
+		<script type="text/javascript">
+			$(document).on("click.bs.dropdown.data-api", ".noclose_js", function (e) { e.stopPropagation() });
+		</script>
+		
+		<script>
+			$(document).ready(function(){
+				$(".btn_toggle_js").click(function(){
+					$(this).parents("li").find(".sub_drop_mmenu").slideToggle("fast");
+				});
+			});
+			$(function() {
+				$('.custom_scroll_js').overlayScrollbars({ 
+					// sizeAutoCapable : false,
+				});
+			});
+		</script>
+		<!-- exmple field  start-->
+		<script>
+		    var map;
+		    function initMap() {
+		      map = new google.maps.Map(document.getElementById('field_map'), {
+		      center: {lat: -34.397, lng: 150.644},
+		      zoom: 8
+		      });
+		    }
+    	</script>
+   		<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAY-nlxihSvoGM3MlB-RmLZNaVhFPoZra4&callback=initMap" async defer></script>
+   		<style>
+   			.gmnoprint{
+   				display: none !important;
+   			}
+   		</style>
+   		<!-- exmple field  end-->
 	</body>
 </html>

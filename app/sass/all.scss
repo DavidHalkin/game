@@ -9,7 +9,8 @@
 '_message_nav.scss',
 '_header',
 '_start_page.scss',
-'_modals.scss';
+'_modals.scss',
+'_registration.scss';
 a.edit{
 	&:hover{
 		@include sprite($edit_hover);
@@ -493,4 +494,8 @@ a.edit{
 			}
 		}
 	}
+}
+.field_map_full{
+	top: 0;
+	height: 100vh;
 }
