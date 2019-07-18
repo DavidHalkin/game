@@ -457,3 +457,40 @@ a.edit{
 		}
 	}
 }
+.map_nav_block{
+	position: absolute;
+	// height: 60px;
+	padding-top: 5px;
+	bottom:5px;
+	left: 0;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	background:url(../images/bg_header.jpg);
+	z-index: 20;
+	.custom_scroll_js{
+		max-width: 100%;
+	}
+	.os-host-overflow-x{
+		padding-top: 5px !important;
+		padding-bottom: 10px !important;
+		margin-bottom: 5px !important;
+	}
+	ul{
+		li{
+			padding: 5px;
+			a{
+				white-space: nowrap;
+				@include media-breakpoint-down(lg) {
+					font-size: 12px;
+				}
+			}
+			&.active{
+				a{
+					border-color: #f1a327;
+					color: #f1a327;
+				}
+			}
+		}
+	}
+}

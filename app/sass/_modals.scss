@@ -511,3 +511,80 @@ select{
 		@include sprite($b_11_h);
 	}
 }
+.map_block{
+	width: 310px;
+	position: absolute;
+	top: 80px;
+	right: 20px;
+	color: #fff;
+	z-index: 10;
+	.map_block_bg{
+		height: 210px;
+		background:rgba(#000,.8) url(../images/bg_alert.png) repeat;
+		border-radius: 5px;
+	}
+	.custom_scroll_js{
+		height: 100%;
+	}
+	.map_block_content{
+		flex: 1 1 auto;
+	}
+	@include media-breakpoint-down(sm) {
+		width: 250px;
+
+		.map_block_bg {
+			height: 180px;
+			font-size: 12px !important;
+		}
+	}
+}
+.map_title{
+	padding-bottom: 20px;
+	span{
+		max-width: 30px;
+		flex:0 0 30px;
+		background: #000;
+		height: 30px;
+		background:url(../images/bg_perk.png) no-repeat;
+		background-size: contain;
+		position: relative;
+		a{
+			display: block;
+			height: 100%;
+		}
+		img{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform:translate(-50%,-50%);
+			border-radius: 50%;
+			max-width: 78%;
+			max-height: 78%;
+		}
+	}
+	strong{
+		padding: 7px 10px 0;
+		text-align: center;
+		flex-grow: 1;
+		max-width: 100%;
+		flex-basis: 0;
+		width: 100%;
+		a{
+			color: #f1a327;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: 12px;
+		}
+	}
+}
+.coordinates_block{
+	.form_control_black{
+		color: #f1a327;
+		&:focus{
+			border-color: #f1a327;
+		}
+	}
+}
