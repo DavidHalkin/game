@@ -30,9 +30,9 @@
 }
 .is_invalid{
 	.form-control{
-		border-color: red;
+		border-color: #c2130e;
 	}
-	.help_txt{
-		color: red;
+	.help_txt,label{
+		color: #c2130e !important;
 	}
 }

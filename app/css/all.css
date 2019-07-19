@@ -88,9 +88,11 @@ a, button { outline: none; }
 
 .dropdown-menu.bg-black a:hover { background: none; color: #d88e2e !important; }
 
-.form_control_black { background: #000; border-color: #000; }
+.form_control_black { background: #000; border-color: #000; color: rgba(237, 178, 15, 0.5); }
 
-.form_control_black:focus { background: #000; border-color: #fff; }
+.form_control_black:focus { background: #000; border-color: #fff; color: rgba(237, 178, 15, 0.7); }
+
+.is_invalid .form_control_black { color: rgba(194, 19, 14, 0.7); }
 
 .form_control_small { max-width: 80px; -webkit-box-flex: 0; -webkit-flex: 0 0 80px; -ms-flex: 0 0 80px; flex: 0 0 80px; }
 
@@ -120,6 +122,28 @@ a, button { outline: none; }
 .func_td .dropdown, .func_td .jcf-select { width: 130px; }
 
 .btn_more { width: 24px; height: 24px; padding: 0; line-height: 15px; }
+
+.custom_radio [type="radio"]:checked, .custom_radio [type="radio"]:not(:checked) { position: absolute; left: -9999px; }
+
+.custom_radio [type="radio"]:checked + label, .custom_radio [type="radio"]:not(:checked) + label { position: relative; padding-left: 28px; cursor: pointer; line-height: 20px; display: inline-block; color: #ccc; font-size: 16px; line-height: 18px; }
+
+.custom_radio [type="radio"]:checked + label { color: #edb20f; }
+
+.custom_radio [type="radio"]:checked + label:before, .custom_radio [type="radio"]:not(:checked) + label:before { content: ''; position: absolute; left: 0; top: 0; width: 18px; height: 18px; -webkit-box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.2); box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.2); -webkit-border-radius: 50%; border-radius: 50%; background: #191817; }
+
+.custom_radio [type="radio"]:checked + label:after, .custom_radio [type="radio"]:not(:checked) + label:after { content: ''; width: 8px; height: 8px; background: #edb20f; position: absolute; top: 5px; left: 5px; -webkit-border-radius: 50%; border-radius: 50%; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; -webkit-box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.5); box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.5); }
+
+.custom_radio [type="radio"]:not(:checked) + label:after { opacity: 0; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); }
+
+.custom_radio [type="radio"]:checked + label:after { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+
+.custom_radio.custom_radio_small [type="radio"]:checked + label, .custom_radio.custom_radio_small [type="radio"]:not(:checked) + label { font-size: 13px; }
+
+.custom_radio.custom_radio_small [type="radio"]:checked + label:before, .custom_radio.custom_radio_small [type="radio"]:not(:checked) + label:before { top: 1px; }
+
+.custom_radio.custom_radio_small [type="radio"]:checked + label:after, .custom_radio.custom_radio_small [type="radio"]:not(:checked) + label:after { top: 6px; }
+
+.color_piker .jscolor { outline: none; width: 34px; height: 34px; border: 1px solid #b0b0b0; -webkit-border-radius: 50%; border-radius: 50%; font-size: 0; text-indent: -9999px; cursor: pointer; }
 
 .mn_item1 { background-image: url(../images/sprite.png); background-position: -178px -125px; width: 36px; height: 28px; }
 
@@ -339,7 +363,7 @@ a, button { outline: none; }
 
 .message_nav .help_button { width: 45px; height: 45px; display: block; margin: 15px auto 0; position: relative; }
 
-.header { position: fixed; top: 0; left: 0; width: 100%; height: 72px; z-index: 1001; background: url(../images/bg_header.jpg) repeat-x; }
+.header { position: fixed; top: 0; left: 0; width: 100%; height: 72px; z-index: 100; background: url(../images/bg_header.jpg) repeat-x; }
 
 span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 10px #fff; font-size: 12px; line-height: 28px; text-align: center; color: #fff; }
 
@@ -588,9 +612,9 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 
 .help_txt { display: block; font-size: 12px; line-height: 14px; padding-top: 5px; }
 
-.is_invalid .form-control { border-color: red; }
+.is_invalid .form-control { border-color: #c2130e; }
 
-.is_invalid .help_txt { color: red; }
+.is_invalid .help_txt, .is_invalid label { color: #c2130e !important; }
 
 .modal_box { max-width: 700px; width: 100%; height: 70%; position: absolute; top: 20%; left: 65px; z-index: 200; display: none; }
 
@@ -623,7 +647,7 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 
 @media screen and (max-width: 1050px) { .modal_box { width: 50%; } }
 
-@media screen and (max-width: 720px) { .modal_box { width: 100%; max-width: 100%; left: 0; right: 0; padding: 10px; top: 0; z-index: 1003; height: 100%; padding-top: 30px; }
+@media screen and (max-width: 720px) { .modal_box { width: 100%; max-width: 100%; left: 0; right: 0; padding: 10px; top: 0; z-index: 999; height: 100%; padding-top: 30px; }
   .modal_box.small_modal { max-width: 100%; top: 0; right: 0; height: 100%; }
   .modal_box .modal_box_close { right: 6px; top: 0; } }
 

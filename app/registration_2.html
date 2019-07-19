@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/custom_bootstrap.css">
+		<link rel="stylesheet" href="css/libs.min.css">
+		<link rel="stylesheet" href="css/all.css">		
+		<title>#</title>
+
+	</head>
+	<body style="overflow: hidden; background: #737628;  position: fixed; top: 0;left: 0; right: 0;bottom: 0;">
+		
+		<div id="field_map" class="field_map field_map_full"></div>
+		<a href="#" class="btn btn-danger btn_helper modal_2_js">OPEN</a>
+		<!-- регистрация -->
+		<div class="modal_box bg_light_texture modal_2_box_js registration_block" style="display: block;">
+			<div class="modal_box_close modal_box_close_js"><i class="icn modal_close"></i></div>
+			<div class="title_modal d-flex align-items-center justify-content-center text-center">Начать Игру</div>
+			<div class="modal_holder d-flex flex-column position-relative">
+				<div class="modal_middle">
+					<div class="custom_scroll_js px-3">
+						<div class="form-row pb-3">
+							<div class="col pb-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Назад</a>
+							</div>
+							<div class="col pb-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Начать</a>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-12 col-sm-6">
+								<div class="form-group">
+									<label for="g13" class="text-warning">E-mail либо логин:</label>
+									<input type="text" class="form-control form_control_black" id="g13" placeholder="">
+								</div>
+							</div>
+							<div class="col-12 col-sm-6">
+								<div class="form-group">
+									<label for="g1e3" class="text-warning">Имя персонажа:</label>
+									<input type="text" class="form-control form_control_black" id="g1e3" placeholder="" value="Гриша">
+								</div>
+							</div>
+							<div class="col-12 col-sm-6">
+								<div class="form-group">
+									<label for="g13r" class="text-warning">Придумайте пароль:</label>
+									<input type="password" class="form-control form_control_black" id="g13r" placeholder="" value="Гриша">
+								</div>
+							</div>
+							<div class="col-12 col-sm-6">
+								<div class="form-group">
+									<label for="g13z" class="text-warning">Повторите пароль:</label>
+									<input type="password" class="form-control form_control_black" id="g13z" placeholder="" value="Гриша">
+								</div>
+							</div>
+						</div>
+						<div class="border-top border-secondary pt-3 mt-3">
+							<div class="form-group">
+								<label for="g1" class="text-warning">Название города:</label>
+								<input type="text" class="form-control form_control_black" id="g1" placeholder="Туртасград">
+							</div>
+							<div class="form-group is_invalid">
+								<label for="g11" class="text-warning">Династия персонажа:</label>
+								<input type="text" class="form-control form_control_black" id="g11" placeholder="" value="Черемисы из Туртасград">
+							</div>
+							
+							<div class="form-row">
+								<div class="col-12 col-sm-6">
+									<span class="text-warning d-block pb-3">Пол персонажа:</span>
+									<div class="d-flex">
+										<div class="custom_radio custom_radio_small mr-2">
+											<input type="radio" id="test3" name="radio-group" checked="">
+											<label for="test3">Мужчина</label>
+										</div>
+										<div class="custom_radio custom_radio_small">
+											<input type="radio" id="test2" name="radio-group">
+											<label for="test2">Женщина</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6 pt-4 pt-sm-0">
+									<span class="text-warning d-block pb-3">Выбрать цвет:</span>
+									<div class="color_piker mt-n2">
+										<input class="jscolor" value="ab2567">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-row pt-3 pb-2">
+							<div class="col pt-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Назад</a>
+							</div>
+							<div class="col pt-2">
+								<a href="#" class="btn btn-texture border-white btn-block">Начать</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jquery.overlayScrollbars.min.js"></script>
+		<script src="js/main.js"></script>
+		<!-- select -->
+		<script src="js/jcf.js"></script>
+		<script src="js/jcf.select.js"></script>
+		<!-- select -->
+		<script src="js/jscolor.min.js"></script>
+		<script type="text/javascript">
+			$(document).on("click.bs.dropdown.data-api", ".noclose_js", function (e) { e.stopPropagation() });
+		</script>
+		
+		<script>
+			$(document).ready(function(){
+				$(".btn_toggle_js").click(function(){
+					$(this).parents("li").find(".sub_drop_mmenu").slideToggle("fast");
+				});
+			});
+			$(function() {
+				$('.custom_scroll_js').overlayScrollbars({ 
+					// sizeAutoCapable : false,
+				});
+			});
+		</script>
+		<!-- exmple field  start-->
+		<script>
+		    var map;
+		    function initMap() {
+		      map = new google.maps.Map(document.getElementById('field_map'), {
+		      center: {lat: -34.397, lng: 150.644},
+		      zoom: 8
+		      });
+		    }
+    	</script>
+   		<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAY-nlxihSvoGM3MlB-RmLZNaVhFPoZra4&callback=initMap" async defer></script>
+   		<style>
+   			.gmnoprint{
+   				display: none !important;
+   			}
+   		</style>
+   		<!-- exmple field  end-->
+	</body>
+</html>
