@@ -234,6 +234,12 @@ a,button{
     .is_invalid &{
         color: rgba(#c2130e,.7);
     }
+    &.form-control[readonly]{
+       background: #000;
+    border-color: #000;
+    color: rgba(#edb20f, .5);
+    outline: none;
+     }
 }
 .form_control_small{
     max-width: 80px;
@@ -382,3 +388,9 @@ a,button{
         cursor: pointer;
     }
 }
+.progress_custom{
+    background: rgba(21, 20, 20, 0.9);
+    box-shadow:inset 0 0 6px rgba(#fff,.3);
+    height: 7px;
+}
+

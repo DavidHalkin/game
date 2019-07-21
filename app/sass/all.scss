@@ -495,7 +495,116 @@ a.edit{
 		}
 	}
 }
+.fz_18{
+	font-size: 18px !important;
+}
 .field_map_full{
 	top: 0;
 	height: 100vh;
+}
+.inner_page{
+	background:url(../images/btn_texture.png) repeat;
+	background-attachment: fixed;
+}
+.main_container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding-top: 100px;
+	color: #fff;
+}
+.main_container_bg{
+	background:url(../images/bg_light.png) repeat;
+	border: 5px solid rgba(#ddd,.1);
+	border-radius: 7px;
+}
+.btn-texture{
+	&.active{
+		&.border-dark{
+			border-color: #d88e2e !important;
+		}
+	}
+}
+.custom_scroll_in_top{
+    .os-scrollbar-horizontal{
+        bottom: auto;
+        top: 0;
+    }
+    &.os-host-overflow-x{
+        padding-bottom: 0 !important;
+        padding-top: 20px !important;
+    }
+}
+.btn_learn{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform:translateX(-50%);
+    z-index: 10;
+}
+.tech_time{
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(../images/time.png) no-repeat;
+    background-size: contain;
+    &.etc{
+        right: auto;
+        left: -20px;
+    }
+}
+.technology_list{
+    height: 900px;
+
+     @media screen and (max-width: 620px) {
+		height: 500px;
+     }
+}
+.technology_column{
+    max-width: 250px;
+    flex:0 0 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    .condition_box{
+        height: 130px;
+        position: relative;
+        margin-bottom: 80px;
+        padding: 30px 5px;
+        strong{
+        	padding-top: 5px;
+        }
+        h4,strong{
+        	max-width: 100%;
+        }
+        &:after{
+            content: '';
+            width: 50px;
+            height: 50px;
+            display: block;
+            background: url(../images/tech_arrow.png) no-repeat;
+            position: absolute;
+            bottom: -68px;
+            left: 50%;
+            transform:translateX(-50%);
+        }
+        &:last-of-type{
+            &:after{
+                content: none;
+            }
+            margin-bottom: 0;
+        }
+    }
+    @media screen and (max-width: 720px) {
+		max-width: 150px;
+		flex:0 0 150px;
+		h4{
+			font-size: 13px !important;
+			line-height: 14px;
+		}
+		strong{
+			font-size: 12px;
+		}
+	}
 }
