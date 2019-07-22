@@ -514,10 +514,20 @@ a,button{
         }
     }
 }
+.fz_20{
+    font-size: 20px !important;
+}
+.fz_12{
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
 .table_custom{
-    table-layout: fixed;
+    // table-layout: fixed;
     width: 100%;
-    min-width: 800px;
+    // min-width: 800px;
+    &.table_custom_long{
+        min-width: 700px;
+    }
     td,th{
         vertical-align: middle;
     }
@@ -547,4 +557,14 @@ a,button{
             color: #d88e2e !important;
         }
     }
+}
+.text_underline{
+    text-decoration: underline;
+}
+.troops_txt{
+   flex: 1 1 auto;
+width: 1%;
+}
+.type_troops{
+    width: 200px;
 }

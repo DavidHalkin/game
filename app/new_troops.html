@@ -281,186 +281,258 @@
 			<div class="main_container px-2 pb-3">
 				<ul class="nav nav-pills custom_tabs fix_li_width justify-content-center">
 					<li class="nav-item m-2 m-sm-3">
-						<a class="nav-link active btn-texture border border-dark" href="#">Рынок</a>
+						<a class="nav-link active btn-texture border border-dark" href="#">Войска</a>
 					</li>
 					<li class="nav-item m-2 m-sm-3">
-						<a class="nav-link btn-texture border border-dark" href="#">Автокараваны</a>
+						<a class="nav-link btn-texture border border-dark" href="#">Рекрутинг</a>
 					</li>
 					<li class="nav-item m-2 m-sm-3">
-						<a class="nav-link btn-texture border border-dark" href="#">Отправки</a>
+						<a class="nav-link btn-texture border border-dark" href="#">Поводы войн</a>
+					</li>
+					<li class="nav-item m-2 m-sm-3">
+						<a class="nav-link btn-texture border border-dark" href="#">Войсковая статистика</a>
+					</li>
+					<li class="nav-item m-2 m-sm-3">
+						<a class="nav-link btn-texture border border-dark" href="#">Флот</a>
+					</li>
+					<li class="nav-item m-2 m-sm-3">
+						<a class="nav-link btn-texture border border-dark" href="#">Логистика</a>
+					</li>
+					<li class="nav-item m-2 m-sm-3">
+						<a class="nav-link btn-texture border border-dark" href="#">Турнир</a>
+					</li>
+					<li class="nav-item m-2 m-sm-3">
+						<a class="nav-link btn-texture border border-dark" href="#">Расстановка боя</a>
 					</li>
 				</ul>
-				<div class="main_container_bg p-3">
-					<div class="condition_box  condition_box_blue text-center p-1">
-						<h3 class="m-0">Караваны Асов град </h3>
-						<div class="row no-gutters mt-2 justify-content-center pb-2">
-							<div class="col-12 col-sm-6 col-md-4">
-								<select class="black_border" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-									<option value="v5">30 км</option>
-									<option value="v5">30 км</option>
-									<option value="v5">30 км</option>
-									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-								</select>
+				<div class="form-row ">
+					<div class="col-12 col-md-6 mb-3">
+						<div class="main_container_bg p-3 d-flex flex-column h-100">
+							<div class="condition_box  condition_box_blue text-center p-2 mb-3">
+								<h3 class="m-0 fz_20">Войска у Вас</h3>
 							</div>
+							<h4 class="fz_16 text-warning">Откуда:</h4>
+							<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+								<option value="v5">30 км</option>
+								<option value="v5">30 км</option>
+								<option value="v5">30 км</option>
+								<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+							</select>
+							<div class="border border-dark rounded table_scroll mt-3">
+								<div class="table-responsive custom_scroll_js">
+									<table class="table text-white table-borderless m-0 table_custom">
+										<thead>
+											<tr>
+												<th class="align-middle text-nowrap"><span class="text-warning">Гос-во</span></th>
+												<th class="align-middle text-nowrap"><span class="text-warning">Тип войск</span></th>
+												<th class="align-middle text-nowrap"><span class="text-warning">Кол-во</span></th>
+												<th class="align-middle text-nowrap"><span class="text-warning">Статус</span></th>
+												<th class="align-middle text-nowrap">&nbsp;</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<span class="d-block" style="width: 32px; height: 32px;"><img src="images/emblem.png" alt="" class="img-fluid"></span>
+												</td>
+												<td>
+													<div class="type_troops d-flex">
+														<span class="troops_img">
+															<img src="images/5.png" alt="" style="background: #795127;" class="img-fluid">
+														</span>
+														<div class="troops_txt pl-2 fz_12">
+															<strong class="d-block"><a href="#" class="text-warning text_underline">Знатный кельтский горец-воитель</a></strong>
+															<span class="d-block name_troops pt-1 text-truncate"><a href="#" class="text-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ullam ad quis quas, necessitatibus molestiae dolores</a></span>
+														</div>
+													</div>
+												</td>
+												<td>1212</td>
+												<td class="text-warning">Стоят</td>
+												<td><a href="#" class="icn troops_btn"></a></td>
+											</tr>
+											<tr>
+												<td>
+													<span class="d-block" style="width: 32px; height: 32px;"><img src="images/emblem.png" alt="" class="img-fluid"></span>
+												</td>
+												<td>
+													<div class="type_troops d-flex">
+														<span class="troops_img">
+															<img src="images/5.png" alt="" style="background: #795127;" class="img-fluid">
+														</span>
+														<div class="troops_txt pl-2 fz_12">
+															<strong class="d-block"><a href="#" class="text-warning text_underline">Знатный кельтский горец-воитель</a></strong>
+															<span class="d-block name_troops pt-1 text-truncate"><a href="#" class="text-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ullam ad quis quas, necessitatibus molestiae dolores</a></span>
+														</div>
+													</div>
+												</td>
+												<td>1212</td>
+												<td class="text-warning">Стоят</td>
+												<td><a href="#" class="icn troops_btn"></a></td>
+											</tr>
+											<tr>
+												<td>
+													<span class="d-block" style="width: 32px; height: 32px;"><img src="images/emblem.png" alt="" class="img-fluid"></span>
+												</td>
+												<td>
+													<div class="type_troops d-flex">
+														<span class="troops_img">
+															<img src="images/5.png" alt="" style="background: #795127;" class="img-fluid">
+														</span>
+														<div class="troops_txt pl-2 fz_12">
+															<strong class="d-block"><a href="#" class="text-warning text_underline">Знатный кельтский горец-воитель</a></strong>
+															<span class="d-block name_troops pt-1 text-truncate"><a href="#" class="text-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ullam ad quis quas, necessitatibus molestiae dolores</a></span>
+														</div>
+													</div>
+												</td>
+												<td>1212</td>
+												<td class="text-warning">Стоят</td>
+												<td><a href="#" class="icn troops_btn"></a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<ul class="list-unstyled m-0 py-3 d-flex justify-content-center flex-wrap pager_list">
+								<li class="m-1"><a href="#" class="btn btn-texture">1</a></li>
+								<li class="m-1 active"><a href="#" class="btn btn-texture">2</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">3</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">4</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">...</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">100</a></li>
+							</ul>
 						</div>
 					</div>
-					<div class="condition_box condition_box_transparent mt-2 p-3">
-						<div class="row">
-							<div class="col-md-6 mb-3">
-								<div class="form-row">
-									<div class="col-6 col-sm-5">
-										<h4>Ресурс:</h4>
-										<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-										</select>
-									</div>
-									<div class="col-6 col-sm-5">
-										<h4>Количество:</h4>
-										<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
-									</div>
-									<div class="col-12 col-sm-2 mt-3 mt-sm-0">
-										<div class="custom_checkbox custom_checkbox_in_bottom">
-											<input type="checkbox" id="test1" />
-											<label for="test1">Караван:</label>
+					<div class="col-12 col-md-6 mb-3">
+						<div class="main_container_bg   p-3 d-flex flex-column h-100">
+							<div class="condition_box  condition_box_blue text-center p-2 mb-3">
+								<h3 class="m-0 fz_20">Отправить</h3>
+							</div>
+							<h4 class="fz_16 text-warning">Куда:</h4>
+							<div class="form-row justify-content-center">
+								<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+									<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+										<option value="v5">30 км</option>
+										<option value="v5">30 км</option>
+										<option value="v5">30 км</option>
+										<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+									</select>
+								</div>
+								<div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-3 mt-sm-0">
+									<div class="form-row">
+										<div class="col-6">
+											<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+										</div>
+										<div class="col-6">
+											<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-md-6 mb-3">
-								<div class="form-row">
-									<div class="col-6 col-sm-4 d-flex flex-column justify-content-end  mb-3 mb-sm-0">
-										<h4>Куда:</h4>
-										<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-										</select>
-									</div>
-									<div class="col-6 col-sm-4 d-flex flex-column justify-content-end mb-3 mb-sm-0">
-										<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-										</select>
-									</div>
-									<div class="col-6 col-sm-2  d-flex flex-column justify-content-end">
-										<h4 class="d-block d-sm-none">Координаты:</h4>
-										<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
-									</div>
-									<div class="col-6 col-sm-2  d-flex flex-column justify-content-end">
-										<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
-									</div>
+								<div class="col-12 col-sm-6 col-md-12 col-lg-4 mt-3 mt-lg-0">
+									<a href="#" class="btn btn-texture btn-block border-white">Отправить</a>
 								</div>
 							</div>
-						</div>
-						<div class="text-center pt-3">
-							<a href="#" class="btn btn-texture border-warning text-warning px-4">Отправить</a>
-						</div>
-						<div class="text-center pt-5 pb-4 d-flex align-items-center flex-wrap justify-content-center">
-							<span class="m-2">Лимит караванов: <span class="text-warning">100k</span></span>
-							<a href="#" class="btn btn-texture border-white px-4 m-2">Увеличить</a>
-						</div>
-					</div>
-					<div class="condition_box condition_box_transparent mt-2 p-3">
-						<h3 class="text-center text-muted">Поставки</h3>
-						<div class="form-row justify-content-center">
-							<div class="col-12 col-sm-6 col-md-3 mb-3">
-								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-									<option value="v5">Все ресурсы</option>
-									<option value="v5">30 км</option>
-									<option value="v5">30 км</option>
-									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-								</select>
+							<div class="border border-dark rounded table_scroll mt-3">
+								<div class="table-responsive custom_scroll_js">
+									<table class="table text-white table-borderless m-0 table_custom">
+										<thead>
+											<tr>
+												<th class="align-middle text-nowrap"><span class="text-warning">Гос-во</span></th>
+												<th class="align-middle text-nowrap"><span class="text-warning">Тип войск</span></th>
+												<th class="align-middle text-nowrap"><span class="text-warning">Кол-во</span></th>
+												<th class="align-middle text-nowrap"><span class="text-warning">Статус</span></th>
+												<th class="align-middle text-nowrap">&nbsp;</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<span class="d-block" style="width: 32px; height: 32px;"><img src="images/emblem.png" alt="" class="img-fluid"></span>
+												</td>
+												<td>
+													<div class="type_troops d-flex">
+														<span class="troops_img">
+															<img src="images/5.png" alt="" style="background: #795127;" class="img-fluid">
+														</span>
+														<div class="troops_txt pl-2 fz_12">
+															<strong class="d-block"><a href="#" class="text-warning text_underline">Знатный кельтский горец-воитель</a></strong>
+															<span class="d-block name_troops pt-1 text-truncate"><a href="#" class="text-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ullam ad quis quas, necessitatibus molestiae dolores</a></span>
+														</div>
+													</div>
+												</td>
+												<td>1212</td>
+												<td class="text-warning">Стоят</td>
+												<td><a href="#" class="icn troops_btn_red"></a></td>
+											</tr>
+											<tr>
+												<td>
+													<span class="d-block" style="width: 32px; height: 32px;"><img src="images/emblem.png" alt="" class="img-fluid"></span>
+												</td>
+												<td>
+													<div class="type_troops d-flex">
+														<span class="troops_img">
+															<img src="images/5.png" alt="" style="background: #795127;" class="img-fluid">
+														</span>
+														<div class="troops_txt pl-2 fz_12">
+															<strong class="d-block"><a href="#" class="text-warning text_underline">consectetur adipisicing elit. Aperiam ullam ad quis quas consectetur adipisicing elit.</a></strong>
+															<span class="d-block name_troops pt-1 text-truncate"><a href="#" class="text-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ullam ad quis quas, necessitatibus molestiae dolores</a></span>
+														</div>
+													</div>
+												</td>
+												<td>1212</td>
+												<td class="text-warning">Стоят</td>
+												<td><a href="#" class="icn troops_btn_red"></a></td>
+											</tr>
+											<tr>
+												<td>
+													<span class="d-block" style="width: 32px; height: 32px;"><img src="images/emblem.png" alt="" class="img-fluid"></span>
+												</td>
+												<td>
+													<div class="type_troops d-flex">
+														<span class="troops_img">
+															<img src="images/5.png" alt="" style="background: #795127;" class="img-fluid">
+														</span>
+														<div class="troops_txt pl-2 fz_12">
+															<strong class="d-block"><a href="#" class="text-warning text_underline">Знатный кельтский горец-воитель</a></strong>
+															<span class="d-block name_troops pt-1 text-truncate"><a href="#" class="text-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ullam ad quis quas, necessitatibus molestiae dolores</a></span>
+														</div>
+													</div>
+												</td>
+												<td>1212</td>
+												<td class="text-warning">Стоят</td>
+												<td><a href="#" class="icn troops_btn_red"></a></td>
+											</tr>
+											<tr>
+												<td>
+													<span class="d-block" style="width: 32px; height: 32px;"><img src="images/emblem.png" alt="" class="img-fluid"></span>
+												</td>
+												<td>
+													<div class="type_troops d-flex">
+														<span class="troops_img">
+															<img src="images/5.png" alt="" style="background: red;" class="img-fluid">
+														</span>
+														<div class="troops_txt pl-2 fz_12">
+															<strong class="d-block"><a href="#" class="text-warning text_underline">Знатный кельтский</a></strong>
+															<span class="d-block name_troops pt-1 text-truncate"><a href="#" class="text-success">Lorem ipsum </a></span>
+														</div>
+													</div>
+												</td>
+												<td>1212</td>
+												<td class="text-warning">Стоят</td>
+												<td><a href="#" class="icn troops_btn_red"></a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 							</div>
-							<div class="col-12 col-sm-6 col-md-3 mb-3">
-								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-									<option value="v5">В любой город</option>
-									<option value="v5">30 км</option>
-									<option value="v5">30 км</option>
-									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-								</select>
-							</div>
+							<ul class="list-unstyled m-0 py-3 d-flex justify-content-center flex-wrap pager_list">
+								<li class="m-1"><a href="#" class="btn btn-texture">1</a></li>
+								<li class="m-1 active"><a href="#" class="btn btn-texture">2</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">3</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">4</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">...</a></li>
+								<li class="m-1"><a href="#" class="btn btn-texture">100</a></li>
+							</ul>
 						</div>
-						<div class="border border-dark rounded table_scroll">
-							<div class="table-responsive custom_scroll_js">
-								<table class="table text-white table-borderless m-0 table_custom table_custom_long">
-									<thead>
-										<tr>
-											<th><span class="text-warning">Откуда</span></th>
-											<th><span class="text-warning">От кого</span></th>
-											<th><span class="text-warning">Куда</span></th>
-											<th class=" text-center"><span class="text-warning">Кому</span></th>
-											<th><span class="text-warning">Ресурс</span></th>
-											<th><span class="text-warning">Объем</span></th>
-											<th><span class="text-warning">Прибытие</span></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
-												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
-											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td class="text-danger">3 14:08:44</td>
-										</tr>
-										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
-												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
-											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td><a href="#" class="btn btn-texture border-white">Удалить</a></td>
-										</tr>
-										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
-												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
-											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td class="text-danger">3 14:08:44</td>
-										</tr>
-										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
-												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
-											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td>3 14:08:44</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-						<ul class="list-unstyled m-0 py-3 d-flex justify-content-center flex-wrap pager_list">
-							<li class="m-1"><a href="#" class="btn btn-texture">1</a></li>
-							<li class="m-1 active"><a href="#" class="btn btn-texture">2</a></li>
-							<li class="m-1"><a href="#" class="btn btn-texture">3</a></li>
-							<li class="m-1"><a href="#" class="btn btn-texture">4</a></li>
-							<li class="m-1"><a href="#" class="btn btn-texture">...</a></li>
-							<li class="m-1"><a href="#" class="btn btn-texture">100</a></li>
-						</ul>
 					</div>
 				</div>
 			</div>

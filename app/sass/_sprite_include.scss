@@ -131,3 +131,7 @@
 // soc
 .facebook{ @include sprite($facebook);}
 .vk{ @include sprite($vk);}
+
+// troops_btns
+.troops_btn{ @include sprite($troops_btn);}
+.troops_btn_red{ @include sprite($troops_btn_red);}
