@@ -145,9 +145,57 @@ a, button { outline: none; }
 
 .custom_radio.custom_radio_small [type="radio"]:checked + label:after, .custom_radio.custom_radio_small [type="radio"]:not(:checked) + label:after { top: 6px; }
 
+.custom_checkbox { /* checkbox aspect */ /* checked mark aspect */ /* checked mark aspect changes */ /* disabled checkbox */ }
+
+.custom_checkbox [type="checkbox"]:not(:checked), .custom_checkbox [type="checkbox"]:checked { position: absolute; left: -9999px; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label, .custom_checkbox [type="checkbox"]:checked + label { position: relative; padding-left: 35px; cursor: pointer; font-size: 14px; line-height: 16px; color: #d88e2e; padding-top: 5px; padding-bottom: 3px; margin: 0; }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:before, .custom_checkbox [type="checkbox"]:checked + label:before { content: ''; position: absolute; left: 0; top: 0; width: 24px; height: 24px; background: #000; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #343a40; -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:after, .custom_checkbox [type="checkbox"]:checked + label:after { content: ''; width: 10px; height: 6px; border-left: 2px solid #d88e2e; border-bottom: 2px solid #d88e2e; position: absolute; top: 8px; left: 7px; -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s; -webkit-transform: rotate(-40deg) skewY(-4deg) !important; -ms-transform: rotate(-40deg) skewY(-4deg) !important; transform: rotate(-40deg) skewY(-4deg) !important; }
+
+.custom_checkbox [type="checkbox"]:checked + label:before { border-color: rgba(216, 142, 46, 0.5); }
+
+.custom_checkbox [type="checkbox"]:not(:checked) + label:after { opacity: 0; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); }
+
+.custom_checkbox [type="checkbox"]:checked + label:after { opacity: 1; -webkit-transform: rotate(-40deg) skewY(-4deg) scale(1) !important; -ms-transform: rotate(-40deg) skewY(-4deg) scale(1) !important; transform: rotate(-40deg) skewY(-4deg) scale(1) !important; }
+
+.custom_checkbox [type="checkbox"]:disabled:not(:checked) + label:before, .custom_checkbox [type="checkbox"]:disabled:checked + label:before { -webkit-box-shadow: none; box-shadow: none; border-color: #bbb; background-color: #ddd; }
+
+.custom_checkbox [type="checkbox"]:disabled:checked + label:after { color: #999; }
+
+.custom_checkbox [type="checkbox"]:disabled + label { color: #aaa; }
+
+.custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:not(:checked) + label, .custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:checked + label { padding-left: 0; padding-top: 0; padding-bottom: 39px; }
+
+.custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:not(:checked) + label:before, .custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:checked + label:before { top: auto; bottom: 0; }
+
+.custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:not(:checked) + label:after, .custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:checked + label:after { top: auto; bottom: 10px; }
+
 .color_piker .jscolor { outline: none; width: 34px; height: 34px; border: 1px solid #b0b0b0; -webkit-border-radius: 50%; border-radius: 50%; font-size: 0; text-indent: -9999px; cursor: pointer; }
 
 .progress_custom { background: rgba(21, 20, 20, 0.9); -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3); box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3); height: 7px; }
+
+.label_img { width: 50px; height: 50px; display: block; background: url(../images/circle.png) no-repeat; -webkit-background-size: cover; background-size: cover; position: relative; -webkit-border-radius: 50%; border-radius: 50%; overflow: hidden; -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5); }
+
+.label_img em { display: block; -webkit-border-radius: 50%; border-radius: 50%; position: absolute; width: -webkit-calc(100% - 10px); width: calc(100% - 10px); height: -webkit-calc(100% - 10px); height: calc(100% - 10px); top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.label_img em img { position: absolute; top: 50%; left: 50%; max-width: 100%; max-height: 100%; -webkit-border-radius: 50%; border-radius: 50%; display: block; -webkit-transform: translate(-50%, -50%) scale(1.2); -ms-transform: translate(-50%, -50%) scale(1.2); transform: translate(-50%, -50%) scale(1.2); }
+
+.table_custom { table-layout: fixed; width: 100%; min-width: 800px; }
+
+.table_custom td, .table_custom th { vertical-align: middle; }
+
+.table_custom td, .table_custom th { border-bottom: 1px solid #343a40 !important; }
+
+.table_custom tbody tr:last-child td { border-bottom: 0 !important; }
+
+.table_custom tbody tr:nth-child(even) td { background: rgba(0, 0, 0, 0.2); }
+
+.table_custom th { background: rgba(0, 0, 0, 0.2) !important; }
+
+.pager_list .active a { border-color: #d88e2e !important; color: #d88e2e !important; }
 
 .mn_item1 { background-image: url(../images/sprite.png); background-position: -178px -125px; width: 36px; height: 28px; }
 
@@ -663,6 +711,8 @@ select { width: 100%; }
 
 .jcf-select.jcf-select-black_border { border: 1px solid #000; }
 
+.jcf-select.jcf-select-black_select { background: #000; border: 1px solid  #343a40 !important; }
+
 .jcf-select .jcf-select-text { font-size: 16px; line-height: 38px; color: #d88e2e; position: relative; margin-right: 30px; margin-left: 14px; cursor: pointer; }
 
 .jcf-select .jcf-select-text img { position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); left: 0; display: block; max-height: 20px; width: auto; }
@@ -1074,5 +1124,7 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 @media screen and (max-width: 720px) { .technology_column { max-width: 150px; -webkit-box-flex: 0; -webkit-flex: 0 0 150px; -ms-flex: 0 0 150px; flex: 0 0 150px; }
   .technology_column h4 { font-size: 13px !important; line-height: 14px; }
   .technology_column strong { font-size: 12px; } }
+
+.table_scroll .os-host-overflow-x { margin-bottom: 10px; }
 
 /*# sourceMappingURL=all.css.map */
