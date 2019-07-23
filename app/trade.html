@@ -292,7 +292,7 @@
 				</ul>
 				<div class="main_container_bg p-3">
 					<div class="condition_box  condition_box_blue text-center p-1">
-						<h3 class="m-0">Караваны Асов град </h3>
+						<h3 class="m-0">Выставить на продажу в городе  </h3>
 						<div class="row no-gutters mt-2 justify-content-center pb-2">
 							<div class="col-12 col-sm-6 col-md-4">
 								<select class="black_border" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
@@ -305,11 +305,11 @@
 						</div>
 					</div>
 					<div class="condition_box condition_box_transparent mt-2 p-3">
-						<div class="row">
-							<div class="col-md-6 mb-3">
-								<div class="form-row">
-									<div class="col-6 col-sm-5">
-										<h4>Ресурс:</h4>
+						<div class="row  align-items-center">
+							<div class="col-12 col-md-6">
+								<div class="form-row pb-3">
+									<div class="col-12 col-sm-6">
+										<h4>Предлагаете:</h4>
 										<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
 											<option value="v5">30 км</option>
 											<option value="v5">30 км</option>
@@ -317,61 +317,77 @@
 											<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
 										</select>
 									</div>
-									<div class="col-6 col-sm-5">
-										<h4>Количество:</h4>
-										<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+									<div class="col-12 col-sm-6 pt-3 pt-sm-0">
+										<label for="f1" class="fz_14">Количество:</label>
+										<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text" id="f1">
+										<span class="help_txt text-muted">Лимит: 5000</span>
 									</div>
-									<div class="col-12 col-sm-2 mt-3 mt-sm-0">
-										<div class="custom_checkbox custom_checkbox_in_bottom">
-											<input type="checkbox" id="test1" />
-											<label for="test1">Караван:</label>
+								</div>
+								<div class="form-row">
+									<div class="col-12 col-sm-6">
+										<h4>Хотите:</h4>
+										<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+											<option value="v5">30 км</option>
+											<option value="v5">30 км</option>
+											<option value="v5">30 км</option>
+											<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+										</select>
+									</div>
+									<div class="col-12 col-sm-6 pt-3 pt-sm-0">
+										<div class="form-group">
+											<label for="f11" class="fz_14">Цена за 1 ед.:</label>
+											<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text" id="f11">
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 mb-3">
-								<div class="form-row">
-									<div class="col-6 col-sm-4 d-flex flex-column justify-content-end  mb-3 mb-sm-0">
-										<h4>Куда:</h4>
-										<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-										</select>
+							<div class="col-12 col-md-6">
+								<div class="py-2">
+									<div class="custom_checkbox">
+										<input id="test1" type="checkbox">
+										<label for="test1">Автоматическое добавление товара</label>
 									</div>
-									<div class="col-6 col-sm-4 d-flex flex-column justify-content-end mb-3 mb-sm-0">
-										<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v5">30 км</option>
-											<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
-										</select>
+								</div>
+								<div class="py-2">
+									<div class="custom_checkbox">
+										<input id="test11" type="checkbox">
+										<label for="test11">Внутренний рынок</label>
 									</div>
-									<div class="col-6 col-sm-2  d-flex flex-column justify-content-end">
-										<h4 class="d-block d-sm-none">Координаты:</h4>
-										<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
-									</div>
-									<div class="col-6 col-sm-2  d-flex flex-column justify-content-end">
-										<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+								</div>
+								<div class="py-2">
+									<div class="custom_checkbox">
+										<input id="test11w" type="checkbox">
+										<label for="test11w"> рынок</label>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="text-center pt-3">
-							<a href="#" class="btn btn-texture border-warning text-warning px-4">Отправить</a>
-						</div>
-						<div class="text-center pt-5 pb-4 d-flex align-items-center flex-wrap justify-content-center">
-							<span class="m-2">Лимит караванов: <span class="text-warning">100k</span></span>
-							<a href="#" class="btn btn-texture border-white px-4 m-2">Увеличить</a>
+							<a href="#" class="btn btn-texture border-warning text-warning px-4">Выставить</a>
 						</div>
 					</div>
 					<div class="condition_box condition_box_transparent mt-2 p-3">
-						<h3 class="text-center text-muted">Поставки</h3>
+						<h3 class="text-center text-muted">Ваши предложения</h3>
 						<div class="form-row justify-content-center">
 							<div class="col-12 col-sm-6 col-md-3 mb-3 d-flex justify-content-end flex-column">
 								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
 									<option value="v5">Все ресурсы</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+							<div class="col-12 col-sm-6 col-md-3 mb-3 d-flex justify-content-end flex-column">
+								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">В любой город</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+							<div class="col-12 col-sm-6 col-md-3 mb-3 d-flex justify-content-end flex-column">
+								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">В любой город</option>
 									<option value="v5">30 км</option>
 									<option value="v5">30 км</option>
 									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
@@ -391,63 +407,242 @@
 								<table class="table text-white table-borderless m-0 table_custom table_custom_long">
 									<thead>
 										<tr>
-											<th><span class="text-warning">Откуда</span></th>
-											<th><span class="text-warning">От кого</span></th>
-											<th><span class="text-warning">Куда</span></th>
-											<th class=" text-center"><span class="text-warning">Кому</span></th>
-											<th><span class="text-warning">Ресурс</span></th>
-											<th><span class="text-warning">Объем</span></th>
-											<th><span class="text-warning">Прибытие</span></th>
+											<th><span class="text-warning">Узел</span></th>
+											<th class="text-center"><span class="text-warning">Держава</span></th>
+											<th class="text-center"><span class="text-warning">Ресурс</span></th>
+											<th class="w90"><span class="text-warning">Объем</span></th>
+											<th class="w170"><span class="text-warning">Цена</span></th>
+											<th class="text-center"><span class="text-warning">Длительность</span></th>
+											<th class="w90"><span class="text-warning">Действие</span></th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
+											<td>Разбойники </td>
+											<td class="text-center">
 												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
 											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td class="text-danger">3 14:08:44</td>
+											<td class="text-center">Благовония</td>
+											<td>
+												<div class="d-flex align-items-center w90">
+													<div class="pr-2">
+														<div class="custom_checkbox checkbox_no_label">
+															<input id="d1" type="checkbox">
+															<label for="d1"></label>
+														</div>
+													</div>
+													<span>
+														<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+													</span>
+												</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center w170">
+													<span class="pr-2">
+														<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+													</span>
+													<span>Деньги</span>
+												</div>
+											</td>
+											<td class="text-center">0дн 00:00:00</td>
+											<td>
+												<a href="#" class="btn btn-texture text-danger border-danger">Удалить</a>
+											</td>
 										</tr>
 										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
+											<td>Разбойники </td>
+											<td class="text-center">
 												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
 											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td><a href="#" class="btn btn-texture border-white">Удалить</a></td>
+											<td class="text-center">Благовония</td>
+											<td>
+												<div class="d-flex align-items-center w90">
+													<div class="pr-2">
+														<div class="custom_checkbox checkbox_no_label">
+															<input id="d12" type="checkbox">
+															<label for="d12"></label>
+														</div>
+													</div>
+													<span>
+														<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+													</span>
+												</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center w170">
+													<span class="pr-2">
+														<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+													</span>
+													<span>Деньги</span>
+												</div>
+											</td>
+											<td class="text-center">0дн 00:00:00</td>
+											<td>
+												<a href="#" class="btn btn-texture text-danger border-danger">Удалить</a>
+											</td>
 										</tr>
 										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
+											<td>Разбойники </td>
+											<td class="text-center">
 												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
 											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td class="text-danger">3 14:08:44</td>
+											<td class="text-center">Благовония</td>
+											<td>
+												<div class="d-flex align-items-center w90">
+													<div class="pr-2">
+														<div class="custom_checkbox checkbox_no_label">
+															<input id="d13" type="checkbox">
+															<label for="d13"></label>
+														</div>
+													</div>
+													<span>
+														<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+													</span>
+												</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center w170">
+													<span class="pr-2">
+														<input class="form-control form_control_black border-dark" placeholder="" value="10" type="text">
+													</span>
+													<span>Деньги</span>
+												</div>
+											</td>
+											<td class="text-center">0дн 00:00:00</td>
+											<td>
+												<a href="#" class="btn btn-texture text-danger border-danger">Удалить</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<ul class="list-unstyled m-0 py-3 d-flex justify-content-center flex-wrap pager_list">
+							<li class="m-1"><a href="#" class="btn btn-texture">1</a></li>
+							<li class="m-1 active"><a href="#" class="btn btn-texture">2</a></li>
+							<li class="m-1"><a href="#" class="btn btn-texture">3</a></li>
+							<li class="m-1"><a href="#" class="btn btn-texture">4</a></li>
+							<li class="m-1"><a href="#" class="btn btn-texture">...</a></li>
+							<li class="m-1"><a href="#" class="btn btn-texture">100</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="main_container_bg p-3 mt-3">
+					<div class="condition_box condition_box_blue text-center p-1">
+						<h3 class="m-0">Торговля</h3>
+					</div>
+					<div class="condition_box condition_box_transparent mt-2 p-3">
+						<div class="text-center d-flex align-items-center flex-wrap justify-content-center">
+							<span class="m-2">Вместимость свободных караванов: <span class="text-warning">100k</span></span>
+							<a href="#" class="btn btn-texture border-white px-4 m-2">Увеличить</a>
+						</div>
+						<div class="form-row justify-content-center pt-3">
+							<div class="col-12 col-sm-6 col-md-3 mb-3 d-flex justify-content-end flex-column">
+								<h4>Куплю:</h4>
+								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">Все ресурсы</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+							<div class="col-12 col-sm-6 col-md-3 mb-3 d-flex justify-content-end flex-column">
+								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">Все типы производства</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+							<div class="col-12 col-sm-6 col-md-3 mb-3 d-flex justify-content-end flex-column">
+								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">Все типы потребления</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+							<div class="col-12 col-sm-6 col-md-3 mb-3 d-flex justify-content-end flex-column">
+								<h4>Отдам:</h4>
+								<select class="black_select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option value="v5">всё</option>
+									<option value="v5">30 км</option>
+									<option value="v5">30 км</option>
+									<option value="v6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit temporibus labore, quaerat aut. Doloribus repellendus sit placeat officiis delectus quae neque, libero, reprehenderit hic nihil ab, quibusdam aut labore laudantium.</option>
+								</select>
+							</div>
+						</div>
+						<div class="border border-dark rounded table_scroll">
+							<div class="table-responsive custom_scroll_js">
+								<table class="table text-white table-borderless m-0 table_custom table_custom_long">
+									<thead>
+										<tr>
+											<th><span class="text-warning">Узел</span></th>
+											<th class="text-center"><span class="text-warning">Держава</span></th>
+											<th class="text-center"><span class="text-warning">Ресурс</span></th>
+											<th><span class="text-warning">Объем</span></th>
+											<th><span class="text-warning">Цена</span></th>
+											<th class="text-center"><span class="text-warning">Длительность</span></th>
+											<th class="w170"><span class="text-warning">Действие</span></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Разбойники </td>
+											<td class="text-center">
+												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
+											</td>
+											<td class="text-center">Бобы</td>
+											<td>437</td>
+											<td>
+												<span class="d-block">0.0081</span>
+												<span class="d-block">Деньги</span>
+											</td>
+											<td class="text-center">0дн 00:00:00</td>
+											<td>
+												<div class="d-flex w170">
+													<span class="pr-2"><input class="form-control form_control_black border-dark" placeholder="" value="10" type="text" id="f11"></span>
+													<a href="#" class="btn btn-texture text-warning border-warning">Купить</a>
+												</div>
+											</td>
 										</tr>
 										<tr>
-											<td>Асов град</td>
-											<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-											<td>Разбойники</td>
-											<td>
-												<a href="#" class="label_img mx-auto"><em><img src="images/nat_2.png" alt=""></em></a>
-												<span class="d-block text-center pt-1">Разбойники</span>
+											<td>Разбойники </td>
+											<td class="text-center">
+												<a href="#" class="label_img mx-auto"><em><img src="images/nat_3.png" alt=""></em></a>
 											</td>
-											<td>Деньги</td>
-											<td>100 литров</td>
-											<td>3 14:08:44</td>
+											<td class="text-center">Бобы</td>
+											<td>437</td>
+											<td>
+												<span class="d-block">0.0081</span>
+												<span class="d-block">Деньги</span>
+											</td>
+											<td class="text-center">00:00</td>
+											<td>
+												<div class="d-flex w170">
+													<span class="pr-2"><input class="form-control form_control_black border-dark" placeholder="" value="10" type="text" id="f11"></span>
+													<a href="#" class="btn btn-texture text-warning border-warning">Купить</a>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Разбойники </td>
+											<td class="text-center">
+												<a href="#" class="label_img mx-auto"><em><img src="images/nat.png" alt=""></em></a>
+											</td>
+											<td class="text-center">Бобы</td>
+											<td>437</td>
+											<td>
+												<span class="d-block">0.0081</span>
+												<span class="d-block">Деньги</span>
+											</td>
+											<td class="text-center">0дн 00:00:00</td>
+											<td>
+												<div class="d-flex w170">
+													<span class="pr-2"><input class="form-control form_control_black border-dark" placeholder="" value="10" type="text" id="f11"></span>
+													<a href="#" class="btn btn-texture text-warning border-warning">Купить</a>
+												</div>
+											</td>
 										</tr>
 									</tbody>
 								</table>

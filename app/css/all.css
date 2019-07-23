@@ -12,6 +12,10 @@ a, button { outline: none; }
 
 .ang_l, .ang_r, .ang_lb, .ang_rb { position: absolute; width: 55px; height: 59px; z-index: 10; background: url(../images/bg_angl.png) no-repeat; }
 
+.w170 { width: 190px; }
+
+.fz_14 { font-size: 14px !important; line-height: 16px !important; }
+
 .ang_l { top: 64px; left: 0; }
 
 .ang_r { top: 64px; right: 0; -webkit-transform: scale(-1, 1); -ms-transform: scale(-1, 1); transform: scale(-1, 1); }
@@ -172,6 +176,10 @@ a, button { outline: none; }
 .custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:not(:checked) + label:before, .custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:checked + label:before { top: auto; bottom: 0; }
 
 .custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:not(:checked) + label:after, .custom_checkbox.custom_checkbox_in_bottom [type="checkbox"]:checked + label:after { top: auto; bottom: 10px; }
+
+.custom_checkbox.checkbox_no_label { width: 24px; height: 24px; max-width: 24px; -webkit-box-flex: 0; -webkit-flex: 0 0 24px; -ms-flex: 0 0 24px; flex: 0 0 24px; }
+
+.custom_checkbox.checkbox_no_label [type="checkbox"]:not(:checked) + label, .custom_checkbox.checkbox_no_label [type="checkbox"]:checked + label { padding: 0; height: 24px; width: 24px; }
 
 .color_piker .jscolor { outline: none; width: 34px; height: 34px; border: 1px solid #b0b0b0; -webkit-border-radius: 50%; border-radius: 50%; font-size: 0; text-indent: -9999px; cursor: pointer; }
 
@@ -1099,9 +1107,11 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .fz_18 { font-size: 18px !important; }
 
+.w90 { width: 90px; }
+
 .field_map_full { top: 0; height: 100vh; }
 
-.inner_page { background: url(../images/btn_texture.png) repeat; background-attachment: fixed; }
+.inner_page { background: url(../images/btn_texture.png) repeat; background: url(../images/bg_page.png) no-repeat; background-attachment: fixed; -webkit-background-size: cover; background-size: cover; }
 
 .main_container { width: 100%; margin: 0 auto; max-width: 1200px; padding-top: 100px; color: #fff; }
 

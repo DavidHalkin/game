@@ -40,6 +40,13 @@ a,button{
     z-index: 10;
     background: url(../images/bg_angl.png) no-repeat;
 }
+.w170{
+    width: 190px;
+}
+.fz_14{
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
 .ang_l {
     top: 64px;
     left: 0;
@@ -463,6 +470,18 @@ a,button{
         [type="checkbox"]:checked + label:after{
             top: auto;
             bottom: 10px;
+        }
+    }
+    &.checkbox_no_label{
+        width: 24px;
+        height: 24px;
+        max-width: 24px;
+        flex:0 0 24px;
+        [type="checkbox"]:not(:checked) + label,
+        [type="checkbox"]:checked + label{
+            padding: 0;
+            height: 24px;
+            width: 24px;
         }
     }
 }

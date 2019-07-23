@@ -498,13 +498,18 @@ a.edit{
 .fz_18{
 	font-size: 18px !important;
 }
+.w90{
+	width: 90px;
+}
 .field_map_full{
 	top: 0;
 	height: 100vh;
 }
 .inner_page{
 	background:url(../images/btn_texture.png) repeat;
+	background:url(../images/bg_page.png) no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 .main_container{
 	width: 100%;
