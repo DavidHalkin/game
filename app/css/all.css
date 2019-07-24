@@ -217,17 +217,17 @@ a, button { outline: none; }
 
 .type_troops { width: 200px; }
 
-.mn_item1 { background-image: url(../images/sprite.png); background-position: -250px -320px; width: 36px; height: 28px; }
+.mn_item1 { background-image: url(../images/sprite.png); background-position: -292px -320px; width: 36px; height: 28px; }
 
 .mn_item2 { background-image: url(../images/sprite.png); background-position: -140px -88px; width: 33px; height: 34px; }
 
-.mn_item3 { background-image: url(../images/sprite.png); background-position: -71px -372px; width: 31px; height: 30px; }
+.mn_item3 { background-image: url(../images/sprite.png); background-position: -36px -372px; width: 31px; height: 30px; }
 
 .mn_item4 { background-image: url(../images/sprite.png); background-position: -456px 0px; width: 29px; height: 31px; }
 
-.mn_item5 { background-image: url(../images/sprite.png); background-position: -107px -372px; width: 32px; height: 29px; }
+.mn_item5 { background-image: url(../images/sprite.png); background-position: -72px -372px; width: 32px; height: 29px; }
 
-.mn_item6 { background-image: url(../images/sprite.png); background-position: -68px -408px; width: 30px; height: 30px; }
+.mn_item6 { background-image: url(../images/sprite.png); background-position: -103px -408px; width: 30px; height: 30px; }
 
 .mn_item7 { background-image: url(../images/sprite.png); background-position: -411px -284px; width: 38px; height: 33px; }
 
@@ -253,29 +253,29 @@ a, button { outline: none; }
 
 .mn_item9_hover { background-image: url(../images/sprite.png); background-position: -114px -160px; width: 52px; height: 49px; }
 
-.arrow_down { background-image: url(../images/sprite.png); background-position: -490px -173px; width: 13px; height: 9px; }
+.arrow_down { background-image: url(../images/sprite.png); background-position: -490px -191px; width: 13px; height: 9px; }
 
-.arrow_down_white { background-image: url(../images/sprite.png); background-position: -490px -159px; width: 13px; height: 9px; }
+.arrow_down_white { background-image: url(../images/sprite.png); background-position: -490px -177px; width: 13px; height: 9px; }
 
-.edit { background-image: url(../images/sprite.png); background-position: -490px -142px; width: 13px; height: 12px; }
+.edit { background-image: url(../images/sprite.png); background-position: -490px -160px; width: 13px; height: 12px; }
 
-.edit_hover { background-image: url(../images/sprite.png); background-position: -490px -125px; width: 13px; height: 12px; }
+.edit_hover { background-image: url(../images/sprite.png); background-position: -490px -143px; width: 13px; height: 12px; }
 
-.resources_1 { background-image: url(../images/sprite.png); background-position: -365px -320px; width: 28px; height: 23px; }
+.resources_1 { background-image: url(../images/sprite.png); background-position: -145px -372px; width: 28px; height: 23px; }
 
-.resources_2 { background-image: url(../images/sprite.png); background-position: -327px -320px; width: 33px; height: 24px; }
+.resources_2 { background-image: url(../images/sprite.png); background-position: -369px -320px; width: 33px; height: 24px; }
 
 .resources_3 { background-image: url(../images/sprite.png); background-position: -490px -68px; width: 23px; height: 23px; }
 
 .resources_4 { background-image: url(../images/sprite.png); background-position: -490px -96px; width: 22px; height: 24px; }
 
-.resources_5 { background-image: url(../images/sprite.png); background-position: -180px -372px; width: 28px; height: 23px; }
+.resources_5 { background-image: url(../images/sprite.png); background-position: -178px -372px; width: 28px; height: 23px; }
 
-.resources_6 { background-image: url(../images/sprite.png); background-position: -96px -447px; width: 28px; height: 26px; }
+.resources_6 { background-image: url(../images/sprite.png); background-position: -128px -447px; width: 28px; height: 26px; }
 
-.new_message { background-image: url(../images/sprite.png); background-position: -103px -408px; width: 30px; height: 30px; }
+.new_message { background-image: url(../images/sprite.png); background-position: -138px -408px; width: 30px; height: 30px; }
 
-.new_message_green { background-image: url(../images/sprite.png); background-position: -33px -408px; width: 30px; height: 30px; }
+.new_message_green { background-image: url(../images/sprite.png); background-position: -68px -408px; width: 30px; height: 30px; }
 
 .new_message_big { background-image: url(../images/sprite.png); background-position: -411px -194px; width: 40px; height: 40px; }
 
@@ -287,7 +287,7 @@ a, button { outline: none; }
 
 .user_3 { background-image: url(../images/sprite.png); background-position: -490px 0px; width: 23px; height: 30px; }
 
-.user_4 { background-image: url(../images/sprite.png); background-position: -144px -372px; width: 31px; height: 25px; }
+.user_4 { background-image: url(../images/sprite.png); background-position: -109px -372px; width: 31px; height: 25px; }
 
 .user_5 { background-image: url(../images/sprite.png); background-position: -490px -35px; width: 19px; height: 28px; }
 
@@ -297,21 +297,21 @@ a, button { outline: none; }
 
 .user_1_hover { background-image: url(../images/sprite.png); background-position: -266px -214px; width: 32px; height: 34px; }
 
-.user_2_hover { background-image: url(../images/sprite.png); background-position: -291px -320px; width: 31px; height: 27px; }
+.user_2_hover { background-image: url(../images/sprite.png); background-position: -333px -320px; width: 31px; height: 27px; }
 
 .user_3_hover { background-image: url(../images/sprite.png); background-position: 0px -408px; width: 28px; height: 34px; }
 
-.user_4_hover { background-image: url(../images/sprite.png); background-position: -411px -322px; width: 37px; height: 31px; }
+.user_4_hover { background-image: url(../images/sprite.png); background-position: -250px -320px; width: 37px; height: 31px; }
 
 .user_5_hover { background-image: url(../images/sprite.png); background-position: -456px -71px; width: 24px; height: 34px; }
 
-.chat_1 { background-image: url(../images/sprite.png); background-position: -158px -320px; width: 41px; height: 40px; }
+.chat_1 { background-image: url(../images/sprite.png); background-position: -204px -320px; width: 41px; height: 40px; }
 
-.chat_2 { background-image: url(../images/sprite.png); background-position: -411px -102px; width: 40px; height: 41px; }
+.chat_2 { background-image: url(../images/sprite.png); background-position: -411px -148px; width: 40px; height: 41px; }
 
-.chat_1_hover { background-image: url(../images/sprite.png); background-position: -204px -320px; width: 41px; height: 40px; }
+.chat_1_hover { background-image: url(../images/sprite.png); background-position: -158px -320px; width: 41px; height: 40px; }
 
-.chat_2_hover { background-image: url(../images/sprite.png); background-position: -411px -148px; width: 40px; height: 41px; }
+.chat_2_hover { background-image: url(../images/sprite.png); background-position: -411px -102px; width: 40px; height: 41px; }
 
 .help_ico { background-image: url(../images/sprite.png); background-position: -72px -88px; width: 63px; height: 60px; }
 
@@ -323,7 +323,7 @@ a, button { outline: none; }
 
 .ic_1 { background-image: url(../images/sprite.png); background-position: -304px -160px; width: 49px; height: 48px; }
 
-.ic_2 { background-image: url(../images/sprite.png); background-position: -268px -267px; width: 48px; height: 48px; }
+.ic_2 { background-image: url(../images/sprite.png); background-position: -358px -106px; width: 48px; height: 48px; }
 
 .ic_3 { background-image: url(../images/sprite.png); background-position: -358px -211px; width: 48px; height: 47px; }
 
@@ -331,11 +331,11 @@ a, button { outline: none; }
 
 .ic_5 { background-image: url(../images/sprite.png); background-position: -304px -54px; width: 49px; height: 48px; }
 
-.ic_6 { background-image: url(../images/sprite.png); background-position: -162px -267px; width: 48px; height: 48px; }
+.ic_6 { background-image: url(../images/sprite.png); background-position: -215px -267px; width: 48px; height: 48px; }
 
 .ic_7 { background-image: url(../images/sprite.png); background-position: -54px -267px; width: 49px; height: 48px; }
 
-.ic_8 { background-image: url(../images/sprite.png); background-position: -358px 0px; width: 48px; height: 48px; }
+.ic_8 { background-image: url(../images/sprite.png); background-position: -358px -53px; width: 48px; height: 48px; }
 
 .ic_9 { background-image: url(../images/sprite.png); background-position: -304px 0px; width: 49px; height: 49px; }
 
@@ -345,7 +345,7 @@ a, button { outline: none; }
 
 .ic_3_hover { background-image: url(../images/sprite.png); background-position: -358px -263px; width: 48px; height: 46px; }
 
-.ic_4_hover { background-image: url(../images/sprite.png); background-position: -215px -267px; width: 48px; height: 48px; }
+.ic_4_hover { background-image: url(../images/sprite.png); background-position: -162px -267px; width: 48px; height: 48px; }
 
 .ic_5_hover { background-image: url(../images/sprite.png); background-position: -108px -267px; width: 49px; height: 48px; }
 
@@ -353,9 +353,9 @@ a, button { outline: none; }
 
 .ic_7_hover { background-image: url(../images/sprite.png); background-position: 0px -267px; width: 49px; height: 48px; }
 
-.ic_8_hover { background-image: url(../images/sprite.png); background-position: -358px -53px; width: 48px; height: 48px; }
+.ic_8_hover { background-image: url(../images/sprite.png); background-position: -358px 0px; width: 48px; height: 48px; }
 
-.ic_9_hover { background-image: url(../images/sprite.png); background-position: -358px -106px; width: 48px; height: 48px; }
+.ic_9_hover { background-image: url(../images/sprite.png); background-position: -268px -267px; width: 48px; height: 48px; }
 
 .tower { background-image: url(../images/sprite.png); background-position: -166px -214px; width: 45px; height: 44px; }
 
@@ -369,15 +369,15 @@ a, button { outline: none; }
 
 .b_1 { background-image: url(../images/sprite.png); background-position: -456px -374px; width: 27px; height: 28px; }
 
-.b_1_h { background-image: url(../images/sprite.png); background-position: -202px -408px; width: 27px; height: 28px; }
+.b_1_h { background-image: url(../images/sprite.png); background-position: -237px -408px; width: 27px; height: 28px; }
 
-.b_2 { background-image: url(../images/sprite.png); background-position: -138px -408px; width: 27px; height: 28px; }
+.b_2 { background-image: url(../images/sprite.png); background-position: -173px -408px; width: 27px; height: 28px; }
 
 .b_2_h { background-image: url(../images/sprite.png); background-position: -456px -110px; width: 27px; height: 28px; }
 
-.b_3 { background-image: url(../images/sprite.png); background-position: -394px -408px; width: 27px; height: 27px; }
+.b_3 { background-image: url(../images/sprite.png); background-position: 0px -447px; width: 27px; height: 27px; }
 
-.b_3_h { background-image: url(../images/sprite.png); background-position: 0px -447px; width: 27px; height: 27px; }
+.b_3_h { background-image: url(../images/sprite.png); background-position: -32px -447px; width: 27px; height: 27px; }
 
 .b_4 { background-image: url(../images/sprite.png); background-position: -456px -407px; width: 27px; height: 28px; }
 
@@ -389,29 +389,29 @@ a, button { outline: none; }
 
 .b_6 { background-image: url(../images/sprite.png); background-position: -456px -275px; width: 27px; height: 28px; }
 
-.b_6_h { background-image: url(../images/sprite.png); background-position: -170px -408px; width: 27px; height: 28px; }
+.b_6_h { background-image: url(../images/sprite.png); background-position: -205px -408px; width: 27px; height: 28px; }
 
-.b_7 { background-image: url(../images/sprite.png); background-position: -266px -408px; width: 27px; height: 27px; }
+.b_7 { background-image: url(../images/sprite.png); background-position: -301px -408px; width: 27px; height: 27px; }
 
-.b_7_h { background-image: url(../images/sprite.png); background-position: -64px -447px; width: 27px; height: 27px; }
+.b_7_h { background-image: url(../images/sprite.png); background-position: -96px -447px; width: 27px; height: 27px; }
 
-.b_8 { background-image: url(../images/sprite.png); background-position: -32px -447px; width: 27px; height: 27px; }
+.b_8 { background-image: url(../images/sprite.png); background-position: -64px -447px; width: 27px; height: 27px; }
 
-.b_8_h { background-image: url(../images/sprite.png); background-position: -298px -408px; width: 27px; height: 27px; }
+.b_8_h { background-image: url(../images/sprite.png); background-position: -333px -408px; width: 27px; height: 27px; }
 
 .b_9 { background-image: url(../images/sprite.png); background-position: -456px -341px; width: 27px; height: 28px; }
 
-.b_9_h { background-image: url(../images/sprite.png); background-position: -234px -408px; width: 27px; height: 28px; }
+.b_9_h { background-image: url(../images/sprite.png); background-position: -269px -408px; width: 27px; height: 28px; }
 
-.b_10 { background-image: url(../images/sprite.png); background-position: -330px -408px; width: 27px; height: 27px; }
+.b_10 { background-image: url(../images/sprite.png); background-position: -365px -408px; width: 27px; height: 27px; }
 
-.b_10_h { background-image: url(../images/sprite.png); background-position: -362px -408px; width: 27px; height: 27px; }
+.b_10_h { background-image: url(../images/sprite.png); background-position: -397px -408px; width: 27px; height: 27px; }
 
 .b_11 { background-image: url(../images/sprite.png); background-position: -456px -209px; width: 27px; height: 28px; }
 
 .b_11_h { background-image: url(../images/sprite.png); background-position: -456px -143px; width: 27px; height: 28px; }
 
-.icn_gem { background-image: url(../images/sprite.png); background-position: -36px -372px; width: 30px; height: 31px; }
+.icn_gem { background-image: url(../images/sprite.png); background-position: -33px -408px; width: 30px; height: 31px; }
 
 .facebook { background-image: url(../images/sprite.png); background-position: -89px 0px; width: 84px; height: 83px; }
 
@@ -420,6 +420,10 @@ a, button { outline: none; }
 .troops_btn { background-image: url(../images/sprite.png); background-position: -411px 0px; width: 40px; height: 46px; }
 
 .troops_btn_red { background-image: url(../images/sprite.png); background-position: -411px -51px; width: 40px; height: 46px; }
+
+.ico_edit { background-image: url(../images/sprite.png); background-position: -490px -125px; width: 13px; height: 13px; }
+
+.state_search { background-image: url(../images/sprite.png); background-position: -411px -322px; width: 35px; height: 34px; }
 
 .message_nav { position: fixed; top: 71px; right: 7px; z-index: 100; }
 
@@ -431,9 +435,9 @@ a, button { outline: none; }
 
 .message_nav a i { position: static !important; -webkit-transform: none !important; -ms-transform: none !important; transform: none !important; }
 
-.message_nav a:hover .chat_1 { background-image: url(../images/sprite.png); background-position: -204px -320px; width: 41px; height: 40px; }
+.message_nav a:hover .chat_1 { background-image: url(../images/sprite.png); background-position: -158px -320px; width: 41px; height: 40px; }
 
-.message_nav a:hover .chat_2 { background-image: url(../images/sprite.png); background-position: -411px -148px; width: 40px; height: 41px; }
+.message_nav a:hover .chat_2 { background-image: url(../images/sprite.png); background-position: -411px -102px; width: 40px; height: 41px; }
 
 .message_nav a:hover .help_ico_small { background-image: url(../images/sprite.png); background-position: -108px -320px; width: 45px; height: 43px; margin-top: 2px; }
 
@@ -558,11 +562,11 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 
 .user_nav ul a:hover .user_1 { background-image: url(../images/sprite.png); background-position: -266px -214px; width: 32px; height: 34px; margin-top: -3px; margin-left: 1px; }
 
-.user_nav ul a:hover .user_2 { background-image: url(../images/sprite.png); background-position: -291px -320px; width: 31px; height: 27px; margin-top: -1px; }
+.user_nav ul a:hover .user_2 { background-image: url(../images/sprite.png); background-position: -333px -320px; width: 31px; height: 27px; margin-top: -1px; }
 
 .user_nav ul a:hover .user_3 { background-image: url(../images/sprite.png); background-position: 0px -408px; width: 28px; height: 34px; margin-top: -4px; }
 
-.user_nav ul a:hover .user_4 { background-image: url(../images/sprite.png); background-position: -411px -322px; width: 37px; height: 31px; margin-top: -1px; }
+.user_nav ul a:hover .user_4 { background-image: url(../images/sprite.png); background-position: -250px -320px; width: 37px; height: 31px; margin-top: -1px; }
 
 .user_nav ul a:hover .user_5 { background-image: url(../images/sprite.png); background-position: -456px -71px; width: 24px; height: 34px; margin-top: -3px; }
 
@@ -605,9 +609,9 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 
 .pseudo_select .btn:hover, .pseudo_select .btn:active, .pseudo_select .btn:focus { color: #d88e2e; }
 
-.pseudo_select .btn.dropdown-toggle:after { background-image: url(../images/sprite.png); background-position: -490px -173px; width: 13px; height: 9px; border: 0; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.pseudo_select .btn.dropdown-toggle:after { background-image: url(../images/sprite.png); background-position: -490px -191px; width: 13px; height: 9px; border: 0; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
-.pseudo_select.show .btn.dropdown-toggle:after { background-image: url(../images/sprite.png); background-position: -490px -159px; width: 13px; height: 9px; }
+.pseudo_select.show .btn.dropdown-toggle:after { background-image: url(../images/sprite.png); background-position: -490px -177px; width: 13px; height: 9px; }
 
 .pseudo_select .dropdown-menu { width: 300px; max-height: 300px; overflow: auto; background-color: rgba(51, 51, 51, 0.98); }
 
@@ -743,9 +747,9 @@ select { width: 100%; }
 
 .jcf-select .jcf-select-opener { background: none; width: 22px; }
 
-.jcf-select .jcf-select-opener:after { content: ''; background-image: url(../images/sprite.png); background-position: -490px -173px; width: 13px; height: 9px; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); position: absolute; top: 50%; left: 50%; }
+.jcf-select .jcf-select-opener:after { content: ''; background-image: url(../images/sprite.png); background-position: -490px -191px; width: 13px; height: 9px; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); position: absolute; top: 50%; left: 50%; }
 
-.jcf-drop-active .jcf-select-opener:after { background-image: url(../images/sprite.png); background-position: -490px -159px; width: 13px; height: 9px; }
+.jcf-drop-active .jcf-select-opener:after { background-image: url(../images/sprite.png); background-position: -490px -177px; width: 13px; height: 9px; }
 
 .jcf-list-box .jcf-selected, .jcf-select-drop .jcf-hover { color: #16181b; text-decoration: none; background-color: #f8f9fa; }
 
@@ -863,25 +867,25 @@ select { width: 100%; }
 
 .has_right_nav { padding-right: 46px !important; }
 
-.b_1:hover, li.active .b_1 { background-image: url(../images/sprite.png); background-position: -202px -408px; width: 27px; height: 28px; }
+.b_1:hover, li.active .b_1 { background-image: url(../images/sprite.png); background-position: -237px -408px; width: 27px; height: 28px; }
 
 .b_2:hover, li.active .b_2 { background-image: url(../images/sprite.png); background-position: -456px -110px; width: 27px; height: 28px; }
 
-.b_3:hover, li.active .b_3 { background-image: url(../images/sprite.png); background-position: 0px -447px; width: 27px; height: 27px; }
+.b_3:hover, li.active .b_3 { background-image: url(../images/sprite.png); background-position: -32px -447px; width: 27px; height: 27px; }
 
 .b_4:hover, li.active .b_4 { background-image: url(../images/sprite.png); background-position: -456px -242px; width: 27px; height: 28px; }
 
 .b_5:hover, li.active .b_5 { background-image: url(../images/sprite.png); background-position: -456px -308px; width: 27px; height: 28px; }
 
-.b_6:hover, li.active .b_6 { background-image: url(../images/sprite.png); background-position: -170px -408px; width: 27px; height: 28px; }
+.b_6:hover, li.active .b_6 { background-image: url(../images/sprite.png); background-position: -205px -408px; width: 27px; height: 28px; }
 
-.b_7:hover, li.active .b_7 { background-image: url(../images/sprite.png); background-position: -64px -447px; width: 27px; height: 27px; }
+.b_7:hover, li.active .b_7 { background-image: url(../images/sprite.png); background-position: -96px -447px; width: 27px; height: 27px; }
 
-.b_8:hover, li.active .b_8 { background-image: url(../images/sprite.png); background-position: -298px -408px; width: 27px; height: 27px; }
+.b_8:hover, li.active .b_8 { background-image: url(../images/sprite.png); background-position: -333px -408px; width: 27px; height: 27px; }
 
-.b_9:hover, li.active .b_9 { background-image: url(../images/sprite.png); background-position: -234px -408px; width: 27px; height: 28px; }
+.b_9:hover, li.active .b_9 { background-image: url(../images/sprite.png); background-position: -269px -408px; width: 27px; height: 28px; }
 
-.b_10:hover, li.active .b_10 { background-image: url(../images/sprite.png); background-position: -362px -408px; width: 27px; height: 27px; }
+.b_10:hover, li.active .b_10 { background-image: url(../images/sprite.png); background-position: -397px -408px; width: 27px; height: 27px; }
 
 .b_11:hover, li.active .b_11 { background-image: url(../images/sprite.png); background-position: -456px -143px; width: 27px; height: 28px; }
 
@@ -944,7 +948,7 @@ select { width: 100%; }
 
 .nation_i p { font-size: 14px; line-height: 20px; color: #ccc; }
 
-a.edit:hover { background-image: url(../images/sprite.png); background-position: -490px -125px; width: 13px; height: 12px; }
+a.edit:hover { background-image: url(../images/sprite.png); background-position: -490px -143px; width: 13px; height: 12px; }
 
 .field_map { width: 100%; position: fixed; top: 71px; left: 0; height: -webkit-calc(100vh - 71px); height: calc(100vh - 71px); }
 
@@ -964,7 +968,7 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .list_infrastructure a:hover .ic_3 { background-image: url(../images/sprite.png); background-position: -358px -263px; width: 48px; height: 46px; }
 
-.list_infrastructure a:hover .ic_4 { background-image: url(../images/sprite.png); background-position: -215px -267px; width: 48px; height: 48px; }
+.list_infrastructure a:hover .ic_4 { background-image: url(../images/sprite.png); background-position: -162px -267px; width: 48px; height: 48px; }
 
 .list_infrastructure a:hover .ic_5 { background-image: url(../images/sprite.png); background-position: -108px -267px; width: 49px; height: 48px; margin-top: -1px; }
 
@@ -972,9 +976,9 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .list_infrastructure a:hover .ic_7 { background-image: url(../images/sprite.png); background-position: 0px -267px; width: 49px; height: 48px; }
 
-.list_infrastructure a:hover .ic_8 { background-image: url(../images/sprite.png); background-position: -358px -53px; width: 48px; height: 48px; margin-left: -1px; }
+.list_infrastructure a:hover .ic_8 { background-image: url(../images/sprite.png); background-position: -358px 0px; width: 48px; height: 48px; margin-left: -1px; }
 
-.list_infrastructure a:hover .ic_9 { background-image: url(../images/sprite.png); background-position: -358px -106px; width: 48px; height: 48px; }
+.list_infrastructure a:hover .ic_9 { background-image: url(../images/sprite.png); background-position: -268px -267px; width: 48px; height: 48px; }
 
 @media screen and (max-width: 1350px) { .list_infrastructure { top: 73px; } }
 
@@ -1111,7 +1115,7 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .field_map_full { top: 0; height: 100vh; }
 
-.inner_page { background: url(../images/btn_texture.png) repeat; background: url(../images/bg_page.png) no-repeat; background-attachment: fixed; -webkit-background-size: cover; background-size: cover; }
+.inner_page { background: url(../images/btn_texture.png) repeat; background: #000 url(../images/bg_page.png) no-repeat; background-attachment: fixed; -webkit-background-size: cover; background-size: cover; }
 
 .main_container { width: 100%; margin: 0 auto; max-width: 1200px; padding-top: 100px; color: #fff; }
 
@@ -1154,5 +1158,50 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 .table_scroll .os-host-overflow-x { margin-bottom: 10px; }
 
 .troops_img { max-width: 30px; -webkit-box-flex: 0; -webkit-flex: 0 0 30px; -ms-flex: 0 0 30px; flex: 0 0 30px; }
+
+.edit_field { color: #edb20f !important; position: relative; }
+
+.edit_field .ico_edit { position: absolute; top: 0; right: 10px; }
+
+.state_list { margin: 0; padding: 0; list-style: none; }
+
+.state_list ul { margin: 0; padding: 0; list-style: none; }
+
+.state_item { padding: 10px 0; }
+
+.state_item .st_inf { padding-left: 20px; }
+
+@media (max-width: 767.98px) { .state_item .label_img { width: 30px; height: 30px; }
+  .state_item .st_inf { padding-left: 10px; } }
+
+.level_1 .state_item_row { padding-left: 0; }
+
+.level_2 .state_item_row { padding-left: 50px; }
+
+.level_3 .state_item_row { padding-left: 100px; }
+
+.level_4 .state_item_row { padding-left: 150px; }
+
+.level_5 .state_item_row { padding-left: 200px; }
+
+.level_6 .state_item_row { padding-left: 250px; }
+
+@media (max-width: 767.98px) { .level_2 .state_item_row { padding-left: 10px; }
+  .level_3 .state_item_row { padding-left: 20px; }
+  .level_4 .state_item_row { padding-left: 30px; }
+  .level_5 .state_item_row { padding-left: 40px; }
+  .level_6 .state_item_row { padding-left: 50px; } }
+
+.func_state { display: none; }
+
+.state_item { position: relative; min-height: 75px; }
+
+@media (max-width: 767.98px) { .state_item { min-height: 50px; } }
+
+.state_item .state_search { position: absolute; top: 50%; right: -5px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+.state_item.active .state_item_row { position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); left: 0; opacity: .1; }
+
+.state_item.active .func_state { display: block; z-index: 2; padding: 10px 30px 10px 10px; }
 
 /*# sourceMappingURL=all.css.map */

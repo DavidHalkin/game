@@ -135,3 +135,7 @@
 // troops_btns
 .troops_btn{ @include sprite($troops_btn);}
 .troops_btn_red{ @include sprite($troops_btn_red);}
+// edit
+.ico_edit{ @include sprite($ico_edit);}
+// search
+.state_search{ @include sprite($state_search);}

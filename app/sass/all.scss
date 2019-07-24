@@ -507,7 +507,7 @@ a.edit{
 }
 .inner_page{
 	background:url(../images/btn_texture.png) repeat;
-	background:url(../images/bg_page.png) no-repeat;
+	background:#000 url(../images/bg_page.png) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -621,4 +621,104 @@ a.edit{
 .troops_img{
 	max-width: 30px;
 	flex:0 0 30px;
+}
+.edit_field{
+	color: #edb20f !important;
+	position: relative;
+	.ico_edit{
+		position: absolute;
+		top: 0;
+		right: 10px;
+	}
+}
+// state_list
+.state_list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+.state_item{
+	padding: 10px 0;
+	.st_inf{
+		padding-left: 20px;
+	}
+	@include media-breakpoint-down(sm) {
+		.label_img{
+			width: 30px;
+			height: 30px;
+		}
+		.st_inf{
+			padding-left: 10px;
+		}
+	}
+}
+.level_1 .state_item_row{
+	padding-left: 0;
+}
+.level_2 .state_item_row{
+	padding-left: 50px;
+}
+.level_3 .state_item_row{
+	padding-left: 100px;
+}
+.level_4 .state_item_row{
+	padding-left: 150px;
+}
+.level_5 .state_item_row{
+	padding-left: 200px;
+}
+.level_6 .state_item_row{
+	padding-left: 250px;
+}
+@include media-breakpoint-down(sm) {
+	.level_2 .state_item_row{
+		padding-left: 10px;
+	}
+	.level_3 .state_item_row{
+		padding-left: 20px;
+	}
+	.level_4 .state_item_row{
+		padding-left: 30px;
+	}
+	.level_5 .state_item_row{
+		padding-left: 40px;
+	}
+	.level_6 .state_item_row{
+		padding-left: 50px;
+	}	
+}
+.func_state{
+	display: none;
+}
+.state_item{
+	position: relative;
+	min-height: 75px;
+	@include media-breakpoint-down(sm) {
+		min-height: 50px;
+	}
+	.state_search{
+		position: absolute;
+		top: 50%;
+		right: -5px;
+		transform:translateY(-50%);
+	}
+	&.active{
+		.state_item_row{
+			position: absolute;
+			top: 50%;
+			transform:translateY(-50%);
+			left: 0;
+			opacity: .1;
+		}
+		.func_state{
+			display: block;
+			z-index: 2;
+			padding: 10px 30px 10px 10px;
+		}
+	}
 }

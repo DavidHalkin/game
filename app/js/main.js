@@ -45,6 +45,15 @@ $(document).ready(function(){
         $(".modal_4_box_js").toggleClass("active");
         return false;
     });
+    // switcher state
+    $(".state_edit_js").click(function(){
+        $(this).parents(".state_item_js").toggleClass("active");
+        return false;
+    });
+    $(".state_close_js").click(function(){
+        $(this).parents(".state_item_js").toggleClass("active");
+        return false;
+    });
 });
 // select
 $(function() {
