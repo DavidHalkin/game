@@ -127,6 +127,10 @@ a, button { outline: none; }
 
 .func_td .dropdown, .func_td .jcf-select { width: 130px; }
 
+.func_td_160 { width: 160px; }
+
+.func_td_160 .dropdown, .func_td_160 .jcf-select { width: 160px; }
+
 .btn_more { width: 24px; height: 24px; padding: 0; line-height: 15px; }
 
 .custom_radio [type="radio"]:checked, .custom_radio [type="radio"]:not(:checked) { position: absolute; left: -9999px; }
@@ -216,6 +220,10 @@ a, button { outline: none; }
 .troops_txt { -webkit-box-flex: 1; -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%; }
 
 .type_troops { width: 200px; }
+
+.col_fix_50 { max-width: 50px; -webkit-box-flex: 0; -webkit-flex: 0 0 50px; -ms-flex: 0 0 50px; flex: 0 0 50px; }
+
+.func_td_260 { width: 260px !important; }
 
 .mn_item1 { background-image: url(../images/sprite.png); background-position: -292px -320px; width: 36px; height: 28px; }
 

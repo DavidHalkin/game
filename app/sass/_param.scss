@@ -309,6 +309,12 @@ a,button{
         width: 130px;
     }
 }
+.func_td_160{
+    width: 160px;
+    .dropdown,.jcf-select{
+        width: 160px;
+    }
+}
 .btn_more {
     width: 24px;
     height: 24px;
@@ -589,4 +595,11 @@ width: 1%;
 }
 .type_troops{
     width: 200px;
+}
+.col_fix_50{
+    max-width: 50px;
+    flex:0 0 50px;
+}
+.func_td_260{
+    width: 260px !important;
 }
