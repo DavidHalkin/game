@@ -722,3 +722,21 @@ a.edit{
 		}
 	}
 }
+.foreign_policy_box{
+	height: 200px;
+	.custom_scroll_js{
+		height: 100%;
+	}
+}
+.foreign_policy_list{
+	height:530px;
+	.custom_scroll_js{
+		height: 100%;
+	}
+	@include media-breakpoint-down(sm) {
+		height: 300px;
+		.foreign_policy_box{
+			height: 100px;
+		}
+	}
+}

@@ -1204,4 +1204,15 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .state_item.active .func_state { display: block; z-index: 2; padding: 10px 30px 10px 10px; }
 
+.foreign_policy_box { height: 200px; }
+
+.foreign_policy_box .custom_scroll_js { height: 100%; }
+
+.foreign_policy_list { height: 530px; }
+
+.foreign_policy_list .custom_scroll_js { height: 100%; }
+
+@media (max-width: 767.98px) { .foreign_policy_list { height: 300px; }
+  .foreign_policy_list .foreign_policy_box { height: 100px; } }
+
 /*# sourceMappingURL=all.css.map */
