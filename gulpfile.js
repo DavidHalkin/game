@@ -119,6 +119,7 @@ gulp.task('scripts', function() {
 		'node_modules/overlayscrollbars/js/jquery.overlayScrollbars.min.js',
 		'bower_components/jcf/dist/js/jcf.js',
 		'bower_components/jcf/dist/js/jcf.select.js',
+		'bower_components/jcf/dist/js/jcf.range.js',
 		'bower_components/jscolor/jscolor.min.js',
 
 		])
