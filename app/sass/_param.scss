@@ -632,3 +632,33 @@ width: 1%;
         }
     }
 }
+.rebuilt_table{
+    .td_title{
+        display: none;
+    }
+   &.rebuilt_table_sm{
+    @include media-breakpoint-down(sm) {
+        thead{
+            display: none !important;
+        }
+        .table,tbody,tr{
+            display: block !important;
+        }
+        td{
+            margin-bottom: 10px;
+            display: flex;
+            align-items:center;
+            justify-content:space-between;
+        }
+        .td_title{
+            display: block;
+        }
+    }
+   }
+}
+.bg_papper{
+    background: url(../images/graphs.png) no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow:inset 0 0 30px rgba(#000,1);
+}
