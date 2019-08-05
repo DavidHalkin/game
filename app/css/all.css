@@ -1244,4 +1244,17 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 @media (max-width: 767.98px) { .foreign_policy_list { height: 300px; }
   .foreign_policy_list .foreign_policy_box { height: 100px; } }
 
+.messages_block { height: 400px; }
+
+.messages_block .custom_scroll_js { height: 100%; }
+
+.item_message_title .label_img { width: 40px; height: 40px; max-width: 40px; -webkit-box-flex: 0; -webkit-flex: 0 0 40px; -ms-flex: 0 0 40px; flex: 0 0 40px; }
+
+@media (min-width: 768px) { .item_message_etc { max-width: 51%; -webkit-box-flex: 0; -webkit-flex: 0 0 51%; -ms-flex: 0 0 51%; flex: 0 0 51%; } }
+
+@media (min-width: 992px) { .item_message_etc { max-width: 40%; -webkit-box-flex: 0; -webkit-flex: 0 0 40%; -ms-flex: 0 0 40%; flex: 0 0 40%; } }
+
+@media (max-width: 575.98px) { .item_message_etc .message_btns { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+  .item_message_etc .message_btns a { max-width: 49%; -webkit-box-flex: 0; -webkit-flex: 0 0 49%; -ms-flex: 0 0 49%; flex: 0 0 49%; } }
+
 /*# sourceMappingURL=all.css.map */
