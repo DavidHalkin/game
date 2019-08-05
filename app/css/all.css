@@ -826,6 +826,8 @@ select { width: 100%; }
 
 .modal_bottom .form-control { background: none; border-color: #000; background: url(../images/bg_light.png); color: #fff; }
 
+.modal_bottom .input-group-append { margin: 0; }
+
 .modal_task .modal_middle { color: #fff; }
 
 .custom_tabs { max-width: 100%; }
@@ -1256,5 +1258,34 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 @media (max-width: 575.98px) { .item_message_etc .message_btns { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
   .item_message_etc .message_btns a { max-width: 49%; -webkit-box-flex: 0; -webkit-flex: 0 0 49%; -ms-flex: 0 0 49%; flex: 0 0 49%; } }
+
+.messages_block_middle { -webkit-box-flex: 1; -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto; flex: 1 1 auto; padding: 5px 0; }
+
+.message_user { padding-bottom: 30px; }
+
+.message_user:last-of-type { padding-bottom: 0; }
+
+.message_user .message_info { max-width: 90px; -webkit-box-flex: 0; -webkit-flex: 0 0 90px; -ms-flex: 0 0 90px; flex: 0 0 90px; }
+
+.message_user .message_info span { display: block; }
+
+@media (max-width: 575.98px) { .message_user .message_info { max-width: 100%; -webkit-box-flex: 0; -webkit-flex: 0 0 100%; -ms-flex: 0 0 100%; flex: 0 0 100%; }
+  .message_user .message_info span { display: inline-block; } }
+
+.message_user .message_txt { min-width: 0; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%; -webkit-flex-basis: 0; -ms-flex-preferred-size: 0; flex-basis: 0; width: 100%; }
+
+@media (max-width: 575.98px) { .message_user .message_txt { max-width: 100%; -webkit-box-flex: 0; -webkit-flex: 0 0 100%; -ms-flex: 0 0 100%; flex: 0 0 100%; } }
+
+.message_user .message_txt strong { display: block; font-size: 18px; line-height: 20px; max-width: 50%; -o-text-overflow: ellipsis; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: block; color: #d88e2e; }
+
+@media (max-width: 767.98px) { .message_user .message_txt strong { max-width: 96%; } }
+
+.message_user .message_txt strong a { color: #d88e2e; }
+
+.message_user .message_txt p { color: #fff; font-size: 18px; line-height: 22px; padding-top: 7px; }
+
+@media (max-width: 991.98px) { .message_user .message_txt p { font-size: 16px; line-height: 19px; } }
+
+.message_user.message_user_i_am .message_txt strong, .message_user.message_user_i_am .message_txt strong a { color: #eac391; }
 
 /*# sourceMappingURL=all.css.map */

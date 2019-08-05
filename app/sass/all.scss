@@ -777,3 +777,72 @@ a.edit{
 		}
 	}
 }
+.messages_block_middle{
+	flex: 1 1 auto;
+	padding: 5px 0;
+}
+.message_user{
+	padding-bottom: 30px;
+	&:last-of-type{
+		padding-bottom: 0;
+	}
+	.message_info{
+		max-width: 90px;
+		flex:0 0 90px;
+		span{
+			display: block;
+		}
+		@include media-breakpoint-down(xs) {
+			max-width: 100%;
+			flex:0 0 100%;
+			span{
+				display: inline-block;
+			}
+		}
+	}
+	.message_txt{
+		min-width: 0;
+		flex-grow: 1;
+		max-width: 100%;
+		flex-basis: 0;
+		width: 100%;
+		@include media-breakpoint-down(xs) {
+			max-width: 100%;
+			flex:0 0 100%;
+		}
+		strong{
+			display: block;
+			font-size: 18px;
+			line-height: 20px;
+			max-width: 50%;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+			display: block;
+			color: #d88e2e;
+			@include media-breakpoint-down(sm) {
+				max-width: 96%;
+			}
+			a{
+				color: #d88e2e;
+			}
+		}
+		p{
+			color: #fff;
+			font-size: 18px;
+			line-height: 22px;
+			padding-top: 7px;
+			@include media-breakpoint-down(md) {
+				font-size: 16px;
+				line-height: 19px;
+			}
+		}
+	}
+	&.message_user_i_am{
+		.message_txt{
+			strong,strong a{
+				color: lighten(#d88e2e,23%);
+			}
+		}
+	}
+}
