@@ -139,3 +139,10 @@
 .ico_edit{ @include sprite($ico_edit);}
 // search
 .state_search{ @include sprite($state_search);}
+//plus
+.ico_plus{ @include sprite($ico_plus);}
+.ico_plus_a{ @include sprite($ico_plus_a);}
+.ico_plus_h{ @include sprite($ico_plus_h);}
+.ico_plus_d{ @include sprite($ico_plus_d);}
+// back
+.bt_back{ @include sprite($bt_back);}
