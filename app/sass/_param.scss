@@ -589,6 +589,9 @@ a,button{
 .text_underline{
     text-decoration: underline;
 }
+.text_underline_none{
+    text-decoration: none !important;
+}
 .troops_txt{
    flex: 1 1 auto;
 width: 1%;
