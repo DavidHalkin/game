@@ -699,3 +699,14 @@ width: 1%;
         }
     }
 }
+.textarea_fixed{
+    height: 282px !important;
+    resize:none;
+}
+.hyphens_txt{
+    hyphens: auto;
+}
+.ico_close{
+    max-width: 37px;
+    flex:0 0 37px;
+}

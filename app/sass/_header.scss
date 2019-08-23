@@ -155,22 +155,6 @@ span.new_message{
 				justify-content:center;
 			}
 		}
-		// .user_box{
-		// 	.user_home{
-		// 		top: 50%;
-		// 		bottom: 0;
-		// 		left: -20px;
-		// 	}
-		// 	.user_emblem{
-		// 		bottom: auto;
-		// 		top: 50%;
-		// 		right: -20px;
-		// 		left: auto;
-		// 	}
-		// 	.user_home,.user_emblem{
-		// 		transform:translateY(-50%);
-		// 	}
-		// }
 	}
 }
 .main_nav_btn{
@@ -186,6 +170,7 @@ span.new_message{
 			display: block;
 			max-width: 100%;
 			height: auto;
+			border-radius: 50%;
 		}
 	}
 }
