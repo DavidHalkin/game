@@ -390,7 +390,7 @@ span.new_message{
 		}
 	}
 	@media screen and (max-width: 1350px) {
-		width: 70px;
+		max-width: 70px;
 		flex:0 0 70px;
 		background-size: auto;
 		.user_nav_list{

@@ -641,7 +641,7 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 
 .user_nav ul a:hover .user_5 { background-image: url(../images/sprite.png); background-position: -500px 0px; width: 24px; height: 34px; margin-top: -3px; }
 
-@media screen and (max-width: 1350px) { .user_nav { width: 70px; -webkit-box-flex: 0; -webkit-flex: 0 0 70px; -ms-flex: 0 0 70px; flex: 0 0 70px; -webkit-background-size: auto auto; background-size: auto; }
+@media screen and (max-width: 1350px) { .user_nav { max-width: 70px; -webkit-box-flex: 0; -webkit-flex: 0 0 70px; -ms-flex: 0 0 70px; flex: 0 0 70px; -webkit-background-size: auto auto; background-size: auto; }
   .user_nav .user_nav_list { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; margin: 0 auto; width: 100%; }
   .user_nav .user_nav_list li { height: auto; width: auto; }
   .user_nav .user_nav_list li a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; max-width: 95%; }
@@ -1427,5 +1427,13 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 .modal_bonus { top: 120px; max-width: 700px; width: 100%; height: 60%; }
 
 @media screen and (max-width: 720px) { .modal_bonus { width: 100%; max-width: 100%; left: 0; right: 0; padding: 10px; top: 0; z-index: 999; height: 100%; padding-top: 30px; } }
+
+.col_fix_150 { max-width: 150px; -webkit-box-flex: 0; -webkit-flex: 0 0 150px; -ms-flex: 0 0 150px; flex: 0 0 150px; }
+
+.perk_label { background: url(../images/bg_perk.png) no-repeat; width: 92px; height: 86px; position: relative; overflow: hidden; padding: 7px; }
+
+.perk_label em { display: block; height: 100%; position: relative; }
+
+.perk_label img { position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto; padding: 0; max-width: 100%; max-height: 100%; -webkit-border-radius: 50%; border-radius: 50%; }
 
 /*# sourceMappingURL=all.css.map */

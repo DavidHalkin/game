@@ -1152,3 +1152,33 @@ a.edit{
 		padding-top: 30px;
 	}
 }
+.col_fix_150{
+	max-width: 150px;
+	flex:0 0 150px;
+}
+.perk_label{
+	background: url(../images/bg_perk.png) no-repeat;
+	width: 92px;
+	height: 86px;
+	position: relative;
+	overflow: hidden;
+	padding: 7px;
+	em{
+		display: block;
+		height: 100%;
+		position: relative;
+	}
+	img{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		padding: 0;
+		max-width: 100%;
+		max-height: 100%;
+		border-radius: 50%;
+		// padding: 7px;
+	}
+}
