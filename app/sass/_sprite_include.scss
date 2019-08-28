@@ -154,3 +154,10 @@
 .ico_diplomacy{ @include sprite($ico_diplomacy);}
 // ico_close
 .ico_close{ @include sprite($ico_close);}
+
+// Условия продажи алмазов
+.condition1{ @include sprite($condition1);}
+.condition2{ @include sprite($condition2);}
+.condition3{ @include sprite($condition3);}
+.condition4{ @include sprite($condition4);}
+.condition5{ @include sprite($condition5);}

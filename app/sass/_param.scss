@@ -610,6 +610,12 @@ width: 1%;
 .func_td_260{
     width: 260px !important;
 }
+.col_fix_80_md{
+    @include media-breakpoint-up(md) {
+        max-width:80px;
+        flex:0 0 80px;
+    }
+}
 .jcf-range{
     width: 100%;
     min-width: 70px;
@@ -709,4 +715,10 @@ width: 1%;
 .ico_close{
     max-width: 37px;
     flex:0 0 37px;
+}
+.smll_logo{
+    img{
+        display: block;
+        max-height: 24px;
+    }
 }

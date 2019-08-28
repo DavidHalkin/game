@@ -497,6 +497,7 @@ a.edit{
 }
 .fz_18{
 	font-size: 18px !important;
+	line-height: 20px !important;
 }
 .w90{
 	width: 90px;
@@ -1191,5 +1192,29 @@ a.edit{
 		max-height: 100%;
 		border-radius: 50%;
 		// padding: 7px;
+	}
+}
+.bonus_item{
+	strong{
+		text-shadow: 0 0 20px purple;
+		text-shadow: 0 0 20px #fff;
+	}
+}
+.list_bonuses{
+	.bonus_item{
+		img{
+			max-width: 50px;
+		}
+	}
+	@include media-breakpoint-down(xs) {
+		.bonus_item{
+			img{
+				max-width: 30px;
+			}
+		}
+		strong,span{
+			font-size: 16px !important;
+			line-height: 18px !important;
+		}
 	}
 }
