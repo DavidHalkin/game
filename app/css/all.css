@@ -121,7 +121,7 @@ a, button { outline: none; }
 
 .table_cstm th, .table_cstm td { border-bottom: 2px solid rgba(204, 204, 204, 0.1); }
 
-.fz_16 { font-size: 16px; line-height: 18px; }
+.fz_16 { font-size: 16px !important; line-height: 18px !important; }
 
 .func_td { width: 130px; }
 
@@ -271,6 +271,8 @@ a, button { outline: none; }
 .ico_close { max-width: 37px; -webkit-box-flex: 0; -webkit-flex: 0 0 37px; -ms-flex: 0 0 37px; flex: 0 0 37px; }
 
 .smll_logo img { display: block; max-height: 24px; }
+
+.btn_fixed_140 { line-height: 18px; }
 
 .mn_item1 { background-image: url(../images/sprite.png); background-position: -482px -200px; width: 36px; height: 28px; }
 
@@ -1460,5 +1462,7 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 @media (max-width: 575.98px) { .list_bonuses .bonus_item img { max-width: 30px; }
   .list_bonuses strong, .list_bonuses span { font-size: 16px !important; line-height: 18px !important; } }
+
+.line_bonuses .bonus_item img { max-width: 50px; }
 
 /*# sourceMappingURL=all.css.map */
