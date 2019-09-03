@@ -189,11 +189,6 @@ a.edit{
 		opacity: 1;
 	}
 }
-.alerts_block {
-	.alerts_block_cnt{
-		
-	}
-}
 .alerts_block{
 	position: fixed;
 	right: 80px;
@@ -232,7 +227,7 @@ a.edit{
 		right: 10px;
 	}
 	@media screen and (max-width: 720px) {
-		display: none;
+		display: none !important;
 	}
 }
 .os-host-overflow-y{
@@ -1119,6 +1114,7 @@ a.edit{
 	strong,span{
 		max-width: 100%;
 		// flex:0 0 100%;
+		hyphens: auto;
 	}
 	strong{
 		font-size: 18px;
