@@ -1223,3 +1223,39 @@ a.edit{
 		}
 	}
 }
+.help_info_container{
+	p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.breadcrumb-item{
+		color: #fff;
+		a{
+			color: #d88e2e;
+
+		}
+	}
+	a{
+		color: #d88e2e;
+	}
+	a:not(.btn){
+		&:visited{
+			color: rgba(#d88e2e,.5) !important;
+		}
+	}
+}
+.list_help{
+	li{
+		padding-top: 7px;
+		padding-bottom: 7px;
+		position: relative;
+		&:before{
+			content: '-';
+			margin-right: 5px;
+		}
+	}
+	ul{
+		padding-left: 30px;
+		padding-top: 7px;
+	}
+}

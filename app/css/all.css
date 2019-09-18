@@ -1465,4 +1465,20 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .line_bonuses .bonus_item img { max-width: 50px; }
 
+.help_info_container p { font-size: 16px; line-height: 20px; }
+
+.help_info_container .breadcrumb-item { color: #fff; }
+
+.help_info_container .breadcrumb-item a { color: #d88e2e; }
+
+.help_info_container a { color: #d88e2e; }
+
+.help_info_container a:not(.btn):visited { color: rgba(216, 142, 46, 0.5) !important; }
+
+.list_help li { padding-top: 7px; padding-bottom: 7px; position: relative; }
+
+.list_help li:before { content: '-'; margin-right: 5px; }
+
+.list_help ul { padding-left: 30px; padding-top: 7px; }
+
 /*# sourceMappingURL=all.css.map */
