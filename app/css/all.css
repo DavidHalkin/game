@@ -1481,4 +1481,16 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .list_help ul { padding-left: 30px; padding-top: 7px; }
 
+.pseudo_table li { border-top: 1px solid #343a40; }
+
+.pseudo_table li:first-child { border-top: 0; }
+
+.pseudo_table li:nth-child(even) { background: rgba(0, 0, 0, 0.2) !important; }
+
+.pseudo_table .label_img { width: 40px; max-width: 40px; -webkit-box-flex: 0; -webkit-flex: 0 0 40px; -ms-flex: 0 0 40px; flex: 0 0 40px; height: 40px; }
+
+.pseudo_table .title { font-weight: normal; }
+
+@media (min-width: 576px) { .pseudo_table .labels_inf { max-width: 100px; -webkit-box-flex: 0; -webkit-flex: 0 0 100px; -ms-flex: 0 0 100px; flex: 0 0 100px; } }
+
 /*# sourceMappingURL=all.css.map */

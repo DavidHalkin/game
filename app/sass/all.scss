@@ -1259,3 +1259,29 @@ a.edit{
 		padding-top: 7px;
 	}
 }
+.pseudo_table{
+	li{
+		border-top: 1px solid #343a40;
+		&:first-child{
+			border-top: 0;
+		}
+		&:nth-child(even){
+			background: rgba(#000,.2) !important;
+		}
+	}
+	.label_img{
+		width: 40px;
+		max-width: 40px;
+		flex:0 0 40px;
+		height: 40px;
+	}
+	.title{
+		font-weight: normal;
+	}
+	.labels_inf{
+		@include media-breakpoint-up(sm) {
+			max-width: 100px;
+			flex:0 0 100px;
+		}
+	}
+}
