@@ -760,3 +760,11 @@ span.new_message{
 		}
 	}
 }
+@media screen and (max-width: 1350px) {
+	.mob_menu_opened{
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		overflow: hidden;
+	}
+}

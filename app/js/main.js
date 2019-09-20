@@ -1,10 +1,11 @@
 $(document).ready(function(){
     $(".btn_nav_js").click(function(){
         $(this).parent().find(".slide_content_js").toggleClass("active");
+        $("body").addClass("mob_menu_opened");
     });
     $(".close_nav_js").click(function(){
         $(this).parents(".slide_content_js").toggleClass("active");
-        // $(this).toggleClass("active");
+        $("body").removeClass("mob_menu_opened");
     });
 
     // chat
