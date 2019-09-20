@@ -1495,4 +1495,39 @@ a.edit:hover { background-image: url(../images/sprite.png); background-position:
 
 .alert_bg { background: url(../images/bg_alert.png) repeat; -webkit-border-radius: 5px; border-radius: 5px; position: relative; color: #fff; text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.75); -webkit-box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.75); box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.75); }
 
+.map_batles { position: relative; }
+
+.map_batles .map_batles_img { width: 100%; height: auto; display: block; }
+
+.map_batles .square_area { position: absolute; top: 0; left: 0; z-index: 2; width: 100%; height: 100%; }
+
+.map_batles .square_grid { max-width: 10%; -webkit-box-flex: 0; -webkit-flex: 0 0 10%; -ms-flex: 0 0 10%; flex: 0 0 10%; height: 20%; border: 1px solid #fff; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+
+.map_batles .square_grid.bg_brown { background: rgba(0, 0, 0, 0.65); border-color: #674d3a; }
+
+.map_batles .square_grid.bg_brown.active { background: url(../images/bg_brown_active.png) no-repeat; -webkit-background-size: cover !important; background-size: cover !important; border-color: #674d3a; border-width: 3px; -webkit-box-shadow: 0 0 10px 0px #674d3a; box-shadow: 0 0 10px 0px #674d3a; }
+
+.map_batles .square_grid.bg_red { background: rgba(167, 16, 0, 0.7); border-color: #740b00; border-width: 2px; -webkit-box-shadow: 0 0 10px 0px #a71000; box-shadow: 0 0 10px 0px #a71000; }
+
+.map_batles .square_grid.bg_selected { background: rgba(22, 197, 203, 0.5); }
+
+.map_batles .square_grid.none { background: none; }
+
+.map_batles .square_title, .map_batles .square_list { -webkit-box-flex: 0; -webkit-flex: 0 0 auto; -ms-flex: 0 0 auto; flex: 0 0 auto; }
+
+.map_batles .square_title { padding: 4px; }
+
+.map_batles .square_title .troops_img { max-width: 40%; -webkit-box-flex: 0; -webkit-flex: 0 0 40%; -ms-flex: 0 0 40%; flex: 0 0 40%; }
+
+.map_batles .square_title .troops_img img { width: 100%; height: auto; display: block; }
+
+.map_batles .square_title strong { padding: 0 3px; text-align: center; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%; -webkit-flex-basis: 0; -ms-flex-preferred-size: 0; flex-basis: 0; width: 100%; }
+
+@media (max-width: 767.98px) { .map_batles .square_title { display: block !important; position: relative; padding: 2px; }
+  .map_batles .square_title strong { position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 11px; line-height: 11px; text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.75); } }
+
+.map_batles .square_list { padding: 3px; }
+
+@media (max-width: 1199.98px) { .map_batles .square_list { font-size: 11px; line-height: 12px; } }
+
 /*# sourceMappingURL=all.css.map */
