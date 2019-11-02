@@ -795,7 +795,7 @@ span.new_message { position: absolute; top: -5px; right: -4px; text-shadow: 0 0 
 
 .modal_box.modal_long { height: 70%; }
 
-.modal_box.modal_action { width: 100%; max-width: 260px; left: auto; right: -260px; top: auto; bottom: 0; height: 92%; }
+.modal_box.modal_action { width: 100%; max-width: 260px; left: auto; right: -260px; top: auto; bottom: 0; height: 92%; position: absolute; }
 
 .modal_box.modal_action .modal_box_close { right: -35px; top: 0px; }
 
